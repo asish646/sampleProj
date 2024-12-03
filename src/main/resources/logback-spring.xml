@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <property name="LOGS" value="./logs"/>
+    <appender name="SIZE_BASED_FILE_APPENDER"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOGS}/pan-client.log</file>
+        <encoder
+                class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>%d %p %C{1.} [%] %m%n</Pattern>
+        </encoder>
+        <rollingPolicy
+                class="ch.qos.logback.core.rolling.SizeAndTimeBasedRolling Policy">
+
+            <!-- rollover daily and if log file size reaches 10 MegaBytes -->
+            <fileNamePattern>${LOGS}/archived/pan-client-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <maxFileSize>5 MB</maxFileSize>
+            <totalSizeCap>100MB</totalSizeCap>
+            <maxHistory>20</maxHistory>
+        </rollingPolicy>
+    </appender>
+    <!-- LOG everything at info level -->
+    <root level="info">
+        <appender-ref ref="SIZE_BASED_FILE_APPENDER"/>
+    </root>
+    <Logger name="com.ntrs" level="INFO" additivity="false">
+        <appender-ref ref="SIZE_BASED_FILE_APPENDER"/>
+    </Logger>
+</configuration>

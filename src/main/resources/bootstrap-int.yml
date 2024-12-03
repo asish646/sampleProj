@@ -1,0 +1,9 @@
+logging:
+  level:
+    .: ERROR
+    com.ntrs.pan: info
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+  config: classpath:logback-spring.xml
+  file:
+    path: logs/

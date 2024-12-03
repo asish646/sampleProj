@@ -1,0 +1,1117 @@
+Info	2024-12-03 18:32:02.027	default_logger_delegate.cpp:238	java (5252)	"Logger initialized with default format:%level	%datetime{%Y-%M-%d %H:%m:%s.%g}	%fbase:%line	java (5252)	""%msg""	%func	%thread"	mipns::DefaultLoggerDelegate::InitHelper	21932
+Info	2024-12-03 18:32:02.028	default_logger_delegate.cpp:239	java (5252)	"Logger initialized with cached log format:%level	%msg"	mipns::DefaultLoggerDelegate::InitHelper	21932
+Info	2024-12-03 18:32:02.028	default_logger_delegate.cpp:240	java (5252)	"Log file:%Temp%\mip\logs\mip_sdk.miplog"	mipns::DefaultLoggerDelegate::InitHelper	21932
+Info	2024-12-03 18:32:02.028	default_logger_delegate.cpp:241	java (5252)	"Machine name: [ASISH], User name: [asish]"	mipns::DefaultLoggerDelegate::InitHelper	21932
+Warning	2024-12-03 18:32:02.029	diagnostic_factory.cpp:203	java (5252)	"CreateEventContext: Provided Cloud type is invalid - using the default cloud and databoundary"	mipns::CreateEventContextInternal	21932
+Info	2024-12-03 18:32:02.029	oneds_helper.cpp:411	java (5252)	"OneDS configuration: {""name"":""mip-sdk-for-cpp-3-0"",""maxTeardownUploadTimeInSec"":1,""stats"":{""interval"":0},""enableNetworkDetector"":true,""cacheFilePath"":""%Temp%\\mip\\telemetry"",""enableTrace"":false}"	mipns::OneDSHelper::InitLogManager	21932
+Info	2024-12-03 18:32:02.071	mip_core_context_impl.cpp:123	java (5252)	"Loading context for application: [OP_Test_Purview Encryption], Application version: [1.14], Application ID: [3c5b6c7b-b9a7-47f6-b502-8c9b10247de2], Process name: [java], MIP SDK version: [1.14.150], Path: [%Temp%\mip]"	mipns::MipCoreContextImpl::MipCoreContextImpl	21932
+Info	2024-12-03 18:32:02.076	oneds_helper.cpp:532	java (5252)	"OneDsHelper::WriteTelemetryEvent(mip_context_create)"	mipns::OneDSHelper::WriteTelemetryEvent	21932
+Info	2024-12-03 18:32:02.076	diagnostic_utils.cpp:80	java (5252)	"Send Telemetry. Event Name : [mip_context_create]
+	App.ApplicationId: [3c5b6c7b-b9a7-47f6-b502-8c9b10247de2], Pii: [None]
+	App.ApplicationName: [OP_Test_Purview Encryption], Pii: [None]
+	App.ApplicationVersion: [1.14], Pii: [None]
+	Event.Duration: [4.19e-05], Pii: [None]
+	Event.UniqueId: [e79ac63d-19b6-4646-9562-365a09bb7dfb], Pii: [None]
+	EventInfo.Level: [10], Pii: [None]
+	EventInfo.PrivTags: [33554432], Pii: [None]
+	MIP.Version: [1.14.150], Pii: [None]
+	MipContext.IsMipCore: [false], Pii: [None]
+	Telemetry.CustomSettings: [], Pii: [None]
+	Telemetry.IsFastShutdownEnabled: [false], Pii: [None]
+	Telemetry.IsLocalCachingEnabled: [true], Pii: [None]
+	Telemetry.IsNetworkDetectionEnabled: [true], Pii: [None]
+	Telemetry.IsOptedOut: [false], Pii: [None]
+	iKey: [ce9aa5fb5a414ecebb15af10715bd8ff-831d197e-fc97-4df6-b998-c8c13a0fc3ce-6768], Pii: [None]
+"	mipns::WriteTelemetryEventToLog	21932
+Info	2024-12-03 18:32:02.095	policy_profile_impl.cpp:63	java (5252)	"Starting API call: pre_initialize_policy"	`anonymous-namespace'::PreInitializePolicy	21932
+Info	2024-12-03 18:32:02.095	policy_profile_impl.cpp:54	java (5252)	"Loading policy profile"	`anonymous-namespace'::PreInitializePolicy::<lambda_164361dd074decbc2d9cab14a8e8e1b6>::operator ()	21932
+Info	2024-12-03 18:32:02.095	policy_profile_impl.cpp:63	java (5252)	"Ended API call: pre_initialize_policy"	`anonymous-namespace'::PreInitializePolicy	21932
+Info	2024-12-03 18:32:02.095	oneds_helper.cpp:532	java (5252)	"OneDsHelper::WriteTelemetryEvent(pre_initialize_policy)"	mipns::OneDSHelper::WriteTelemetryEvent	21932
+Info	2024-12-03 18:32:02.096	diagnostic_utils.cpp:80	java (5252)	"Send Telemetry. Event Name : [pre_initialize_policy]
+	App.ApplicationId: [3c5b6c7b-b9a7-47f6-b502-8c9b10247de2], Pii: [None]
+	App.ApplicationName: [OP_Test_Purview Encryption], Pii: [None]
+	App.ApplicationVersion: [1.14], Pii: [None]
+	App.SessionId: [], Pii: [None]
+	Event.CorrelationId: [a4c2a5c8-f4f9-4885-b12a-1649fefa9c44], Pii: [None]
+	Event.CorrelationIdDescription: [PolicyProfile], Pii: [None]
+	Event.Duration: [0.0006533], Pii: [None]
+	Event.UniqueId: [5aa50dbe-d1a4-456e-a63e-ecf92b44efe2], Pii: [None]
+	EventInfo.Level: [10], Pii: [None]
+	EventInfo.PrivTags: [33554432], Pii: [None]
+	MIP.Version: [1.14.150], Pii: [None]
+	iKey: [ce9aa5fb5a414ecebb15af10715bd8ff-831d197e-fc97-4df6-b998-c8c13a0fc3ce-6768], Pii: [None]
+"	mipns::WriteTelemetryEventToLog	21932
+Info	2024-12-03 18:32:02.096	policy_profile_impl.cpp:302	java (5252)	"Starting API call: profile_load_async scenarioId=f74cefa5-228c-46d7-ac01-ed91123f5dc5"	mipns::PolicyProfile::LoadAsync	21932
+Info	2024-12-03 18:32:02.096	policy_profile_impl.cpp:302	java (5252)	"Ended API call: profile_load_async"	mipns::PolicyProfile::LoadAsync	21932
+Info	2024-12-03 18:32:02.097	policy_profile_impl.cpp:302	java (5252)	"Starting API task: profile_load_async scenarioId=f74cefa5-228c-46d7-ac01-ed91123f5dc5"	mipns::PolicyProfile::LoadAsync	3136
+Info	2024-12-03 18:32:02.097	policy_store_impl.cpp:114	java (5252)	"PolicyStoreImpl configured to use in-memory caching."	mipns::PolicyStoreImpl::PolicyStoreImpl	3136
+Info	2024-12-03 18:32:02.097	policy_store_impl.cpp:123	java (5252)	"Policy storage path: :memory:"	mipns::PolicyStoreImpl::PolicyStoreImpl	3136
+Info	2024-12-03 18:32:02.113	openssl_crypto_delegate_impl.cpp:118	java (5252)	"OpenSSL provider loaded: [default]"	mipns::OpenSslCryptoDelegateImpl::{ctor}::<lambda_510f5669650f4951dde3c1e2ca18d128>::operator ()	3136
+Info	2024-12-03 18:32:02.122	policy_profile_impl.cpp:358	java (5252)	"Policy API configured to use default HttpDelegate"	mipns::ProfileImpl::ProfileImpl	3136
+Info	2024-12-03 18:32:02.122	policy_profile_impl.cpp:364	java (5252)	"Policy API configured to use default TaskDispatcherDelegate"	mipns::ProfileImpl::ProfileImpl	3136
+Info	2024-12-03 18:32:02.123	oneds_helper.cpp:532	java (5252)	"OneDsHelper::WriteTelemetryEvent(profile_load_async)"	mipns::OneDSHelper::WriteTelemetryEvent	3136
+Info	2024-12-03 18:32:02.123	diagnostic_utils.cpp:80	java (5252)	"Send Telemetry. Event Name : [profile_load_async]
+	App.ApplicationId: [3c5b6c7b-b9a7-47f6-b502-8c9b10247de2], Pii: [None]
+	App.ApplicationName: [OP_Test_Purview Encryption], Pii: [None]
+	App.ApplicationVersion: [1.14], Pii: [None]
+	App.SessionId: [], Pii: [None]
+	Event.CorrelationId: [a4c2a5c8-f4f9-4885-b12a-1649fefa9c44], Pii: [None]
+	Event.CorrelationIdDescription: [PolicyProfile], Pii: [None]
+	Event.Duration: [0.0265267], Pii: [None]
+	Event.UniqueId: [d4ce330f-caf3-495d-8bb2-9830f1783a38], Pii: [None]
+	EventInfo.Level: [10], Pii: [None]
+	EventInfo.PrivTags: [33554432], Pii: [None]
+	MIP.Version: [1.14.150], Pii: [None]
+	iKey: [ce9aa5fb5a414ecebb15af10715bd8ff-831d197e-fc97-4df6-b998-c8c13a0fc3ce-6768], Pii: [None]
+"	mipns::WriteTelemetryEventToLog	3136
+Info	2024-12-03 18:32:02.123	policy_profile_impl.cpp:302	java (5252)	"Ended API task: profile_load_async"	mipns::PolicyProfile::LoadAsync	3136
+Info	2024-12-03 18:32:02.123	common/api_utils.h:195	java (5252)	"Start calling success callback for API: profile_load_async"	mipns::TryExecuteSuccessCallback::<lambda_1d2bad13933e74feb4b66203fb5a4cfd>::operator ()	11588
+Info	2024-12-03 18:32:02.128	protection_profile_impl.cpp:62	java (5252)	"Starting API call: protection_profile_pre_initialize"	mipns::PreInitializeProtection	11588
+Info	2024-12-03 18:32:02.128	protection_profile_impl.cpp:55	java (5252)	"Loading protection profile. EUL caching state: [1]"	mipns::PreInitializeProtection::<lambda_e4df632cb0049f7208c3a3ba1a1a7beb>::operator ()	11588
+Info	2024-12-03 18:32:02.128	protection_profile_impl.cpp:62	java (5252)	"Ended API call: protection_profile_pre_initialize"	mipns::PreInitializeProtection	11588
+Info	2024-12-03 18:32:02.128	oneds_helper.cpp:532	java (5252)	"OneDsHelper::WriteTelemetryEvent(protection_profile_pre_initialize)"	mipns::OneDSHelper::WriteTelemetryEvent	11588
+Info	2024-12-03 18:32:02.128	diagnostic_utils.cpp:80	java (5252)	"Send Telemetry. Event Name : [protection_profile_pre_initialize]
+	App.ApplicationId: [3c5b6c7b-b9a7-47f6-b502-8c9b10247de2], Pii: [None]
+	App.ApplicationName: [OP_Test_Purview Encryption], Pii: [None]
+	App.ApplicationVersion: [1.14], Pii: [None]
+	App.SessionId: [], Pii: [None]
+	Event.CorrelationId: [571cc49f-dbe4-47e3-babe-c7b144bb39f1], Pii: [None]
+	Event.CorrelationIdDescription: [ProtectionProfile], Pii: [None]
+	Event.Duration: [0.001241], Pii: [None]
+	Event.UniqueId: [087c03c8-a4c2-497a-b03a-6cad843675ec], Pii: [None]
+	EventInfo.Level: [10], Pii: [None]
+	EventInfo.PrivTags: [33554432], Pii: [None]
+	MIP.Version: [1.14.150], Pii: [None]
+	iKey: [ce9aa5fb5a414ecebb15af10715bd8ff-831d197e-fc97-4df6-b998-c8c13a0fc3ce-6768], Pii: [None]
+"	mipns::WriteTelemetryEventToLog	11588
+Info	2024-12-03 18:32:02.129	protection_profile_impl.cpp:137	java (5252)	"Starting API call: protection_profile_load_async scenarioId=3b0ef7c9-4f72-4e4d-afc3-6f8b63cd8798"	mipns::ProtectionProfile::LoadAsync	11588
+Info	2024-12-03 18:32:02.129	protection_profile_impl.cpp:137	java (5252)	"Ended API call: protection_profile_load_async"	mipns::ProtectionProfile::LoadAsync	11588
+Info	2024-12-03 18:32:02.129	protection_profile_impl.cpp:137	java (5252)	"Starting API task: protection_profile_load_async scenarioId=3b0ef7c9-4f72-4e4d-afc3-6f8b63cd8798"	mipns::ProtectionProfile::LoadAsync	16052
+Info	2024-12-03 18:32:02.129	common/api_utils.h:197	java (5252)	"Ended calling success callback for API: profile_load_async"	mipns::TryExecuteSuccessCallback::<lambda_1d2bad13933e74feb4b66203fb5a4cfd>::operator ()	11588
+Info	2024-12-03 18:32:02.133	storage_manager.cpp:86	java (5252)	"StorageManager configured to use in-memory caching."	mipns::StorageManager::StorageManager	16052
+Info	2024-12-03 18:32:02.134	storage_manager.cpp:95	java (5252)	"Protection storage path: :memory:"	mipns::StorageManager::StorageManager	16052
+Info	2024-12-03 18:32:02.134	protection_profile_impl.cpp:195	java (5252)	"Protection API configured to use default HttpDelegate"	mipns::ProtectionProfileImpl::ProtectionProfileImpl	16052
+Info	2024-12-03 18:32:02.134	protection_profile_impl.cpp:201	java (5252)	"Protection API configured to use default TaskDispatcherDelegate"	mipns::ProtectionProfileImpl::ProtectionProfileImpl	16052
+Info	2024-12-03 18:32:02.134	oneds_helper.cpp:532	java (5252)	"OneDsHelper::WriteTelemetryEvent(protection_profile_load_async)"	mipns::OneDSHelper::WriteTelemetryEvent	16052
+Info	2024-12-03 18:32:02.134	diagnostic_utils.cpp:80	java (5252)	"Send Telemetry. Event Name : [protection_profile_load_async]
+	App.ApplicationId: [3c5b6c7b-b9a7-47f6-b502-8c9b10247de2], Pii: [None]
+	App.ApplicationName: [OP_Test_Purview Encryption], Pii: [None]
+	App.ApplicationVersion: [1.14], Pii: [None]
+	App.SessionId: [], Pii: [None]
+	Event.CorrelationId: [571cc49f-dbe4-47e3-babe-c7b144bb39f1], Pii: [None]
+	Event.CorrelationIdDescription: [ProtectionProfile], Pii: [None]
+	Event.Duration: [0.0053895], Pii: [None]
+	Event.UniqueId: [b0d1b536-4ff2-40d8-920d-cb81b54acea7], Pii: [None]
+	EventInfo.Level: [10], Pii: [None]
+	EventInfo.PrivTags: [33554432], Pii: [None]
+	MIP.Version: [1.14.150], Pii: [None]
+	iKey: [ce9aa5fb5a414ecebb15af10715bd8ff-831d197e-fc97-4df6-b998-c8c13a0fc3ce-6768], Pii: [None]
+"	mipns::WriteTelemetryEventToLog	16052
+Info	2024-12-03 18:32:02.135	protection_profile_impl.cpp:137	java (5252)	"Ended API task: protection_profile_load_async"	mipns::ProtectionProfile::LoadAsync	16052
+Info	2024-12-03 18:32:02.136	common/api_utils.h:195	java (5252)	"Start calling success callback for API: protection_profile_load_async"	mipns::TryExecuteSuccessCallback::<lambda_959706c8c804700e1fc5b45da9730014>::operator ()	22204
+Info	2024-12-03 18:32:02.143	common/api_utils.h:197	java (5252)	"Ended calling success callback for API: protection_profile_load_async"	mipns::TryExecuteSuccessCallback::<lambda_959706c8c804700e1fc5b45da9730014>::operator ()	22204
+Info	2024-12-03 18:32:02.156	policy_profile_impl.cpp:522	java (5252)	"Starting API call: profile_add_engine_async scenarioId=36f46af9-b746-4623-af68-90f7dc5408f3"	mipns::ProfileImpl::AddEngineAsync	21932
+Info	2024-12-03 18:32:02.156	policy_profile_impl.cpp:522	java (5252)	"Ended API call: profile_add_engine_async"	mipns::ProfileImpl::AddEngineAsync	21932
+Info	2024-12-03 18:32:02.156	policy_profile_impl.cpp:522	java (5252)	"Starting API task: profile_add_engine_async"	mipns::ProfileImpl::AddEngineAsync	3136
+Info	2024-12-03 18:32:02.156	policy_profile_impl.cpp:522	java (5252)	"Starting API task: profile_add_engine_async scenarioId=36f46af9-b746-4623-af68-90f7dc5408f3"	mipns::ProfileImpl::AddEngineAsync	3136
+Info	2024-12-03 18:32:02.156	policy_profile_impl.cpp:244	java (5252)	"Starting to add policy engine with engine id: 123"	`anonymous-namespace'::CreateEngineAsync	3136
+Warning	2024-12-03 18:32:02.157	policy_engine_manager_impl.cpp:275	java (5252)	"Inconsistent label & sensitivity policy detected. Removing both from cache if it exists."	mipns::PolicyEngineManagerImpl::DeletePolicyFromStorage	3136
+Info	2024-12-03 18:32:02.159	policy_engine_manager_impl.cpp:358	java (5252)	"Loading new policy engine (requires fetch): 123"	mipns::PolicyEngineManagerImpl::LoadNewEngineAsync	3136
+Info	2024-12-03 18:32:02.160	auth_request_transformer.cpp:155	java (5252)	"Requesting auth token from app. Resource: 'https://syncservice.o365syncservice.com/', Authority: 'https://login.windows.net/common', Scope: '', Claims: ''"	mipns::AuthRequestTransformer::GetAuthToken	3136
+Info	2024-12-03 18:32:05.609	http_client_base.cpp:44	java (5252)	"HTTP response time (seconds): 2.52594 ID: OneDS_HTTP-0"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	11364
+Info	2024-12-03 18:32:06.386	auth_request_transformer.cpp:169	java (5252)	"Authentication response time (seconds): 4.22607"	mipns::AuthRequestTransformer::GetAuthToken	3136
+Info	2024-12-03 18:32:06.390	auth_request_transformer.cpp:48	java (5252)	"Failed to get auth token from cached auth header. Failed with: [NoAuthTokenError: 'Client application failed to provide authentication token for HTTP request.']"	mipns::AuthRequestTransformer::TransformRequestPriorToInitialSend	3136
+Info	2024-12-03 18:32:06.391	http_director_impl.cpp:141	java (5252)	"Sending HTTP request: ID: {2141E11D-E0BB-4213-8D38-10C8BBDB8767}, Type: GET, Url: https://dataservice.protection.outlook.com/PsorWebService/v1/ClientSyncFile/MipPolicies?supportedMaxVersion=1.0.50.0, Body Size: 0, Headers['ClientInfo'] = 'mip_ver=1.14.150;os_name=win;os_ver=10-0-19045;runtime=msvc-1929;arch=x64', Headers['Capabilities'] = 'BestEffortEntityMatch,BestEffortCCSIMatch,SchematizedDataContentType', Headers['Content-Type'] = 'application/xml;charset=utf-8'"	mipns::HttpDirectorImpl::DoSendHttp	3136
+Info	2024-12-03 18:32:07.100	http_client_base.cpp:44	java (5252)	"HTTP response time (seconds): 0.708883 ID: {2141E11D-E0BB-4213-8D38-10C8BBDB8767}"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	21440
+Info	2024-12-03 18:32:07.101	oneds_helper.cpp:532	java (5252)	"OneDsHelper::WriteTelemetryEvent(policy_sync_acquire_policy)"	mipns::OneDSHelper::WriteTelemetryEvent	21440
+Info	2024-12-03 18:32:07.101	diagnostic_utils.cpp:80	java (5252)	"Send Telemetry. Event Name : [policy_sync_acquire_policy]
+	App.ApplicationId: [3c5b6c7b-b9a7-47f6-b502-8c9b10247de2], Pii: [None]
+	App.ApplicationName: [OP_Test_Purview Encryption], Pii: [None]
+	App.ApplicationVersion: [1.14], Pii: [None]
+	App.SessionId: [], Pii: [None]
+	Engine.SessionId: [], Pii: [None]
+	Event.CorrelationId: [8ec1ebf6-d01f-4c48-a548-0c4e0ea26aba], Pii: [None]
+	Event.CorrelationIdDescription: [HttpDirector], Pii: [None]
+	Event.Duration: [0.710014], Pii: [None]
+	Event.ParentCorrelationId: [a4c2a5c8-f4f9-4885-b12a-1649fefa9c44], Pii: [None]
+	Event.ParentCorrelationIdDescription: [PolicyProfile], Pii: [None]
+	Event.UniqueId: [a2dcada6-09a5-45d5-8878-30b6cbdb305d], Pii: [None]
+	EventInfo.Level: [10], Pii: [None]
+	EventInfo.PrivTags: [33554432], Pii: [None]
+	MIP.Version: [1.14.150], Pii: [None]
+	Request.CorrelationId: [{2141E11D-E0BB-4213-8D38-10C8BBDB8767}], Pii: [None]
+	Request.HttpStatusCode: [401], Pii: [None]
+	Request.IsAsynchronous: [true], Pii: [None]
+	Request.RequestBodySize: [0], Pii: [None]
+	Request.ResponseBodySize: [0], Pii: [None]
+	Request.ResponseServerExecutionTime: [Total=1ms], Pii: [None]
+	Request.ResponseServerName: [DB8EUR05WS042], Pii: [None]
+	Request.TokenTenantId: [], Pii: [None]
+	Request.Url: [https://dataservice.protection.outlook.com/PsorWebService/v1/ClientSyncFile/MipPolicies], Pii: [None]
+	iKey: [ce9aa5fb5a414ecebb15af10715bd8ff-831d197e-fc97-4df6-b998-c8c13a0fc3ce-6768], Pii: [None]
+"	mipns::WriteTelemetryEventToLog	21440
+Info	2024-12-03 18:32:07.103	http_director_impl.cpp:38	java (5252)	"Received HTTP response: ID: {2141E11D-E0BB-4213-8D38-10C8BBDB8767}, Status: 401, Time: 2024-12-03T13:02:07Z, Headers['Date'] = 'Tue, 03 Dec 2024 13:02:06 GMT', Headers['Pragma'] = 'no-cache', Headers['Server'] = 'Microsoft-IIS/10.0', Headers['Expires'] = '-1', Headers['Content-Type'] = 'application/xml', Headers['X-Powered-By'] = 'ASP.NET', Headers['Cache-Control'] = 'no-cache', Headers['Content-Length'] = '0', Headers['X-AspNet-Version'] = '4.0.30319', Headers['POLICYSYNC-CONTEXT'] = 'cpprestsdk/2.10.2-DB8EUR05WS042-w3wp-15.20.8230.008-20241203010206-', Headers['POLICYSYNC-AUTH-ERROR'] = 'No valid OAuth token or Client Certificate were found.', Headers['PSORWEBSERVICE-VERSION'] = '15.20.8230.008', Headers['Strict-Transport-Security'] = 'max-age=63072000; includeSubDomains; preload', Headers['PSORWEBSERVICE-MACHINENAME'] = 'DB8EUR05WS042', Headers['PSORWEBSERVICE-EXECUTIONTIME-MS'] = 'Total=1ms'"	`anonymous-namespace'::LogHttpOperationDetails	21440
+Info	2024-12-03 18:32:07.103	auth_request_transformer.cpp:155	java (5252)	"Requesting auth token from app. Resource: 'https://syncservice.o365syncservice.com/', Authority: 'https://login.windows.net/common', Scope: '', Claims: ''"	mipns::AuthRequestTransformer::GetAuthToken	21440
+Info	2024-12-03 18:32:07.791	auth_request_transformer.cpp:169	java (5252)	"Authentication response time (seconds): 0.687928"	mipns::AuthRequestTransformer::GetAuthToken	21440
+Error	2024-12-03 18:32:07.791	http_director_impl.cpp:269	java (5252)	"HTTP operation failed Failed with: [NoAuthTokenError: 'Client application failed to provide authentication token for HTTP request.']"	mipns::HttpDirectorImpl::OnHttpOperationFailed	21440
+Info	2024-12-03 18:32:07.791	api_log_cache.cpp:58	java (5252)	"{{========================================= API CACHED LOGS BEGIN =========================================================}}"	mipns::ApiLogCache::LogAllMessages	21440
+Info	2024-12-03 18:32:07.791	policy_profile_impl.cpp:522	java (5252)	"Starting API call: profile_add_engine_async scenarioId=36f46af9-b746-4623-af68-90f7dc5408f3"	mipns::ProfileImpl::AddEngineAsync	21932
+Trace	2024-12-03 18:32:07.791	default_task_dispatcher_delegate.cpp:58	java (5252)	"Dispatching task 'ApiCallback-2' to event loop"	mipns::DefaultTaskDispatcherDelegate::DispatchTask	21932
+Info	2024-12-03 18:32:07.791	policy_profile_impl.cpp:522	java (5252)	"Ended API call: profile_add_engine_async"	mipns::ProfileImpl::AddEngineAsync	21932
+Info	2024-12-03 18:32:07.791	policy_profile_impl.cpp:522	java (5252)	"Starting API task: profile_add_engine_async"	mipns::ProfileImpl::AddEngineAsync	3136
+Info	2024-12-03 18:32:07.791	policy_profile_impl.cpp:522	java (5252)	"Starting API task: profile_add_engine_async scenarioId=36f46af9-b746-4623-af68-90f7dc5408f3"	mipns::ProfileImpl::AddEngineAsync	3136
+Info	2024-12-03 18:32:07.791	policy_profile_impl.cpp:244	java (5252)	"Starting to add policy engine with engine id: 123"	`anonymous-namespace'::CreateEngineAsync	3136
+Trace	2024-12-03 18:32:07.792	policy_engine_manager_impl.cpp:480	java (5252)	"PolicyEngineManager::AddEngineAsync 123"	mipns::PolicyEngineManagerImpl::AddEngineAsync	3136
+Trace	2024-12-03 18:32:07.792	persistent_store_impl.cpp:126	java (5252)	"PersistentStoreImpl::Find: Trying to find rows for table: Policies started"	mipns::PersistentStoreImpl::Find	3136
+Trace	2024-12-03 18:32:07.792	sqlite_storage_table.cpp:186	java (5252)	"SQLiteStorageTable::Find: Trying to find rows for table: Policies"	mipns::SQLiteStorageTable::Find	3136
+Trace	2024-12-03 18:32:07.792	sqlite_storage_table.cpp:213	java (5252)	"Found no matching rows."	mipns::SQLiteStorageTable::Find	3136
+Trace	2024-12-03 18:32:07.792	persistent_store_impl.cpp:136	java (5252)	"PersistentStoreImpl::Find: Trying to find rows for table: Policies completed"	mipns::PersistentStoreImpl::Find	3136
+Warning	2024-12-03 18:32:07.792	policy_engine_manager_impl.cpp:275	java (5252)	"Inconsistent label & sensitivity policy detected. Removing both from cache if it exists."	mipns::PolicyEngineManagerImpl::DeletePolicyFromStorage	3136
+Trace	2024-12-03 18:32:07.792	persistent_store_impl.cpp:111	java (5252)	"PersistentStoreImpl::Delete: Trying to delete rows for table: Policies started"	mipns::PersistentStoreImpl::Delete	3136
+Trace	2024-12-03 18:32:07.792	sqlite_storage_table.cpp:163	java (5252)	"SQLiteStorageTable::Delete: Trying to delete rows for table: Policies"	mipns::SQLiteStorageTable::Delete	3136
+Trace	2024-12-03 18:32:07.792	persistent_store_impl.cpp:120	java (5252)	"PersistentStoreImpl::Delete: Trying to delete rows for table: Policies completed"	mipns::PersistentStoreImpl::Delete	3136
+Trace	2024-12-03 18:32:07.792	persistent_store_impl.cpp:111	java (5252)	"PersistentStoreImpl::Delete: Trying to delete rows for table: Sensitivity started"	mipns::PersistentStoreImpl::Delete	3136
+Trace	2024-12-03 18:32:07.792	sqlite_storage_table.cpp:163	java (5252)	"SQLiteStorageTable::Delete: Trying to delete rows for table: Sensitivity"	mipns::SQLiteStorageTable::Delete	3136
+Trace	2024-12-03 18:32:07.792	persistent_store_impl.cpp:120	java (5252)	"PersistentStoreImpl::Delete: Trying to delete rows for table: Sensitivity completed"	mipns::PersistentStoreImpl::Delete	3136
+Info	2024-12-03 18:32:07.792	policy_engine_manager_impl.cpp:358	java (5252)	"Loading new policy engine (requires fetch): 123"	mipns::PolicyEngineManagerImpl::LoadNewEngineAsync	3136
+Trace	2024-12-03 18:32:07.792	persistent_store_impl.cpp:126	java (5252)	"PersistentStoreImpl::Find: Trying to find rows for table: Policies started"	mipns::PersistentStoreImpl::Find	3136
+Trace	2024-12-03 18:32:07.792	sqlite_storage_table.cpp:186	java (5252)	"SQLiteStorageTable::Find: Trying to find rows for table: Policies"	mipns::SQLiteStorageTable::Find	3136
+Trace	2024-12-03 18:32:07.792	sqlite_storage_table.cpp:213	java (5252)	"Found no matching rows."	mipns::SQLiteStorageTable::Find	3136
+Trace	2024-12-03 18:32:07.792	persistent_store_impl.cpp:136	java (5252)	"PersistentStoreImpl::Find: Trying to find rows for table: Policies completed"	mipns::PersistentStoreImpl::Find	3136
+Trace	2024-12-03 18:32:07.792	policy_engine_manager_impl.cpp:614	java (5252)	"Async acquiring 'LabelAndRule' policy for engine: 123"	mipns::PolicyEngineManagerImpl::AcquirePolicyAsync	3136
+Info	2024-12-03 18:32:07.792	auth_request_transformer.cpp:155	java (5252)	"Requesting auth token from app. Resource: 'https://syncservice.o365syncservice.com/', Authority: 'https://login.windows.net/common', Scope: '', Claims: ''"	mipns::AuthRequestTransformer::GetAuthToken	3136
+Info	2024-12-03 18:32:07.793	auth_request_transformer.cpp:169	java (5252)	"Authentication response time (seconds): 4.22607"	mipns::AuthRequestTransformer::GetAuthToken	3136
+Info	2024-12-03 18:32:07.793	auth_request_transformer.cpp:48	java (5252)	"Failed to get auth token from cached auth header. Failed with: [NoAuthTokenError: 'Client application failed to provide authentication token for HTTP request.']"	mipns::AuthRequestTransformer::TransformRequestPriorToInitialSend	3136
+Trace	2024-12-03 18:32:07.793	persistent_store_impl.cpp:126	java (5252)	"PersistentStoreImpl::Find: Trying to find rows for table: PoliciesUrls started"	mipns::PersistentStoreImpl::Find	3136
+Trace	2024-12-03 18:32:07.793	sqlite_storage_table.cpp:186	java (5252)	"SQLiteStorageTable::Find: Trying to find rows for table: PoliciesUrls"	mipns::SQLiteStorageTable::Find	3136
+Trace	2024-12-03 18:32:07.793	sqlite_storage_table.cpp:213	java (5252)	"Found no matching rows."	mipns::SQLiteStorageTable::Find	3136
+Trace	2024-12-03 18:32:07.793	persistent_store_impl.cpp:136	java (5252)	"PersistentStoreImpl::Find: Trying to find rows for table: PoliciesUrls completed"	mipns::PersistentStoreImpl::Find	3136
+Trace	2024-12-03 18:32:07.793	http_client_base.cpp:80	java (5252)	"Adding HTTP operation '{2141E11D-E0BB-4213-8D38-10C8BBDB8767}'"	mipns::HttpClientBase::AddOperation	3136
+Info	2024-12-03 18:32:07.793	http_director_impl.cpp:141	java (5252)	"Sending HTTP request: ID: {2141E11D-E0BB-4213-8D38-10C8BBDB8767}, Type: GET, Url: https://dataservice.protection.outlook.com/PsorWebService/v1/ClientSyncFile/MipPolicies?supportedMaxVersion=1.0.50.0, Body Size: 0, Headers['ClientInfo'] = 'mip_ver=1.14.150;os_name=win;os_ver=10-0-19045;runtime=msvc-1929;arch=x64', Headers['Capabilities'] = 'BestEffortEntityMatch,BestEffortCCSIMatch,SchematizedDataContentType', Headers['Content-Type'] = 'application/xml;charset=utf-8'"	mipns::HttpDirectorImpl::DoSendHttp	3136
+Trace	2024-12-03 18:32:07.793	http_client_base.cpp:92	java (5252)	"Removing HTTP operation '{2141E11D-E0BB-4213-8D38-10C8BBDB8767}'"	mipns::HttpClientBase::RemoveOperation	21440
+Info	2024-12-03 18:32:07.793	http_client_base.cpp:44	java (5252)	"HTTP response time (seconds): 0.708883 ID: {2141E11D-E0BB-4213-8D38-10C8BBDB8767}"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	21440
+Info	2024-12-03 18:32:07.793	oneds_helper.cpp:532	java (5252)	"OneDsHelper::WriteTelemetryEvent(policy_sync_acquire_policy)"	mipns::OneDSHelper::WriteTelemetryEvent	21440
+Info	2024-12-03 18:32:07.793	diagnostic_utils.cpp:80	java (5252)	"Send Telemetry. Event Name : [policy_sync_acquire_policy]
+	App.ApplicationId: [3c5b6c7b-b9a7-47f6-b502-8c9b10247de2], Pii: [None]
+	App.ApplicationName: [OP_Test_Purview Encryption], Pii: [None]
+	App.ApplicationVersion: [1.14], Pii: [None]
+	App.SessionId: [], Pii: [None]
+	Engine.SessionId: [], Pii: [None]
+	Event.CorrelationId: [8ec1ebf6-d01f-4c48-a548-0c4e0ea26aba], Pii: [None]
+	Event.CorrelationIdDescription: [HttpDirector], Pii: [None]
+	Event.Duration: [0.710014], Pii: [None]
+	Event.ParentCorrelationId: [a4c2a5c8-f4f9-4885-b12a-1649fefa9c44], Pii: [None]
+	Event.ParentCorrelationIdDescription: [PolicyProfile], Pii: [None]
+	Event.UniqueId: [a2dcada6-09a5-45d5-8878-30b6cbdb305d], Pii: [None]
+	EventInfo.Level: [10], Pii: [None]
+	EventInfo.PrivTags: [33554432], Pii: [None]
+	MIP.Version: [1.14.150], Pii: [None]
+	Request.CorrelationId: [{2141E11D-E0BB-4213-8D38-10C8BBDB8767}], Pii: [None]
+	Request.HttpStatusCode: [401], Pii: [None]
+	Request.IsAsynchronous: [true], Pii: [None]
+	Request.RequestBodySize: [0], Pii: [None]
+	Request.ResponseBodySize: [0], Pii: [None]
+	Request.ResponseServerExecutionTime: [Total=1ms], Pii: [None]
+	Request.ResponseServerName: [DB8EUR05WS042], Pii: [None]
+	Request.TokenTenantId: [], Pii: [None]
+	Request.Url: [https://dataservice.protection.outlook.com/PsorWebService/v1/ClientSyncFile/MipPolicies], Pii: [None]
+	iKey: [ce9aa5fb5a414ecebb15af10715bd8ff-831d197e-fc97-4df6-b998-c8c13a0fc3ce-6768], Pii: [None]
+"	mipns::WriteTelemetryEventToLog	21440
+Trace	2024-12-03 18:32:07.793	http_director_impl.cpp:33	java (5252)	"HTTP callback executed on thread 21440"	`anonymous-namespace'::LogHttpOperationDetails	21440
+Info	2024-12-03 18:32:07.793	http_director_impl.cpp:38	java (5252)	"Received HTTP response: ID: {2141E11D-E0BB-4213-8D38-10C8BBDB8767}, Status: 401, Time: 2024-12-03T13:02:07Z, Headers['Date'] = 'Tue, 03 Dec 2024 13:02:06 GMT', Headers['Pragma'] = 'no-cache', Headers['Server'] = 'Microsoft-IIS/10.0', Headers['Expires'] = '-1', Headers['Content-Type'] = 'application/xml', Headers['X-Powered-By'] = 'ASP.NET', Headers['Cache-Control'] = 'no-cache', Headers['Content-Length'] = '0', Headers['X-AspNet-Version'] = '4.0.30319', Headers['POLICYSYNC-CONTEXT'] = 'cpprestsdk/2.10.2-DB8EUR05WS042-w3wp-15.20.8230.008-20241203010206-', Headers['POLICYSYNC-AUTH-ERROR'] = 'No valid OAuth token or Client Certificate were found.', Headers['PSORWEBSERVICE-VERSION'] = '15.20.8230.008', Headers['Strict-Transport-Security'] = 'max-age=63072000; includeSubDomains; preload', Headers['PSORWEBSERVICE-MACHINENAME'] = 'DB8EUR05WS042', Headers['PSORWEBSERVICE-EXECUTIONTIME-MS'] = 'Total=1ms'"	`anonymous-namespace'::LogHttpOperationDetails	21440
+Info	2024-12-03 18:32:07.793	auth_request_transformer.cpp:155	java (5252)	"Requesting auth token from app. Resource: 'https://syncservice.o365syncservice.com/', Authority: 'https://login.windows.net/common', Scope: '', Claims: ''"	mipns::AuthRequestTransformer::GetAuthToken	21440
+Info	2024-12-03 18:32:07.793	auth_request_transformer.cpp:169	java (5252)	"Authentication response time (seconds): 0.687928"	mipns::AuthRequestTransformer::GetAuthToken	21440
+Trace	2024-12-03 18:32:07.793	persistent_store_impl.cpp:111	java (5252)	"PersistentStoreImpl::Delete: Trying to delete rows for table: PoliciesUrls started"	mipns::PersistentStoreImpl::Delete	21440
+Trace	2024-12-03 18:32:07.793	sqlite_storage_table.cpp:163	java (5252)	"SQLiteStorageTable::Delete: Trying to delete rows for table: PoliciesUrls"	mipns::SQLiteStorageTable::Delete	21440
+Trace	2024-12-03 18:32:07.793	persistent_store_impl.cpp:120	java (5252)	"PersistentStoreImpl::Delete: Trying to delete rows for table: PoliciesUrls completed"	mipns::PersistentStoreImpl::Delete	21440
+Error	2024-12-03 18:32:07.793	http_director_impl.cpp:269	java (5252)	"HTTP operation failed Failed with: [NoAuthTokenError: 'Client application failed to provide authentication token for HTTP request.']"	mipns::HttpDirectorImpl::OnHttpOperationFailed	21440
+Info	2024-12-03 18:32:07.793	api_log_cache.cpp:78	java (5252)	"{{========================================= API CACHED LOGS END ==========================================================}}"	mipns::ApiLogCache::LogAllMessages	21440
+Error	2024-12-03 18:32:07.795	policy_profile_impl.cpp:522	java (5252)	"Failed API call: profile_add_engine_async Failed with: [NoAuthTokenError: 'Client application failed to provide authentication token for HTTP request., CorrelationId=a4c2a5c8-f4f9-4885-b12a-1649fefa9c44, CorrelationId.Description=PolicyProfile']"	mipns::ProfileImpl::AddEngineAsync	21440
+Info	2024-12-03 18:32:07.795	api_log_cache.cpp:58	java (5252)	"{{========================================= API CACHED LOGS BEGIN =========================================================}}"	mipns::ApiLogCache::LogAllMessages	21440
+Error	2024-12-03 18:32:07.795	policy_profile_impl.cpp:522	java (5252)	"Failed API call: profile_add_engine_async Failed with: [NoAuthTokenError: 'Client application failed to provide authentication token for HTTP request., CorrelationId=a4c2a5c8-f4f9-4885-b12a-1649fefa9c44, CorrelationId.Description=PolicyProfile']"	mipns::ProfileImpl::AddEngineAsync	21440
+Info	2024-12-03 18:32:07.795	api_log_cache.cpp:78	java (5252)	"{{========================================= API CACHED LOGS END ==========================================================}}"	mipns::ApiLogCache::LogAllMessages	21440
+Info	2024-12-03 18:32:07.795	policy_profile_impl.cpp:522	java (5252)	"Ended API task: profile_add_engine_async"	mipns::ProfileImpl::AddEngineAsync	21440
+Info	2024-12-03 18:32:07.795	oneds_helper.cpp:532	java (5252)	"OneDsHelper::WriteTelemetryEvent(profile_add_engine_async)"	mipns::OneDSHelper::WriteTelemetryEvent	21440
+Info	2024-12-03 18:32:07.796	diagnostic_utils.cpp:80	java (5252)	"Send Telemetry. Event Name : [profile_add_engine_async]
+	App.ApplicationId: [3c5b6c7b-b9a7-47f6-b502-8c9b10247de2], Pii: [None]
+	App.ApplicationName: [OP_Test_Purview Encryption], Pii: [None]
+	App.ApplicationVersion: [1.14], Pii: [None]
+	App.SessionId: [], Pii: [None]
+	Engine.SessionId: [], Pii: [None]
+	Event.CorrelationId: [a4c2a5c8-f4f9-4885-b12a-1649fefa9c44], Pii: [None]
+	Event.CorrelationIdDescription: [PolicyProfile], Pii: [None]
+	Event.Duration: [5.64], Pii: [None]
+	Event.ErrorType: [NoAuthTokenError], Pii: [None]
+	Event.Failed.File: [src\upe\api_impl\policy_profile_impl.cpp], Pii: [None]
+	Event.Failed.Func: [mipns::ProfileImpl::AddEngineAsync], Pii: [None]
+	Event.Failed.Line: [522], Pii: [None]
+	Event.Failed.Message: [Failed API call: profile_add_engine_async Failed with: [NoAuthTokenError: 'Client application failed to provide authentication token for HTTP request.']], Pii: [None]
+	Event.UniqueId: [88748c14-1849-4723-910e-225971db3bc9], Pii: [None]
+	EventInfo.Level: [10], Pii: [None]
+	EventInfo.PrivTags: [33554432], Pii: [None]
+	MIP.Version: [1.14.150], Pii: [None]
+	iKey: [ce9aa5fb5a414ecebb15af10715bd8ff-831d197e-fc97-4df6-b998-c8c13a0fc3ce-6768], Pii: [None]
+"	mipns::WriteTelemetryEventToLog	21440
+Warning	2024-12-03 18:32:07.796	common/api_utils.h:232	java (5252)	"Start calling error callback for API: profile_add_engine_async"	mipns::TryExecuteFailureCallback::<lambda_f57fcab7c13a1e04057c4bfcfd37dbc2>::operator ()	20636
+Warning	2024-12-03 18:32:07.800	common/api_utils.h:234	java (5252)	"Ended calling error callback for API: profile_add_engine_async"	mipns::TryExecuteFailureCallback::<lambda_f57fcab7c13a1e04057c4bfcfd37dbc2>::operator ()	20636
+Info	2024-12-03 18:32:29.223	default_logger_delegate.cpp:238	java (6860)	"Logger initialized with default format:%level	%datetime{%Y-%M-%d %H:%m:%s.%g}	%fbase:%line	java (6860)	""%msg""	%func	%thread"	mipns::DefaultLoggerDelegate::InitHelper	8912
+Info	2024-12-03 18:32:29.223	default_logger_delegate.cpp:239	java (6860)	"Logger initialized with cached log format:%level	%msg"	mipns::DefaultLoggerDelegate::InitHelper	8912
+Info	2024-12-03 18:32:29.223	default_logger_delegate.cpp:240	java (6860)	"Log file:%Temp%\mip\logs\mip_sdk.miplog"	mipns::DefaultLoggerDelegate::InitHelper	8912
+Info	2024-12-03 18:32:29.223	default_logger_delegate.cpp:241	java (6860)	"Machine name: [ASISH], User name: [asish]"	mipns::DefaultLoggerDelegate::InitHelper	8912
+Warning	2024-12-03 18:32:29.223	diagnostic_factory.cpp:203	java (6860)	"CreateEventContext: Provided Cloud type is invalid - using the default cloud and databoundary"	mipns::CreateEventContextInternal	8912
+Info	2024-12-03 18:32:29.223	oneds_helper.cpp:411	java (6860)	"OneDS configuration: {""name"":""mip-sdk-for-cpp-3-0"",""maxTeardownUploadTimeInSec"":1,""stats"":{""interval"":0},""enableNetworkDetector"":true,""cacheFilePath"":""%Temp%\\mip\\telemetry"",""enableTrace"":false}"	mipns::OneDSHelper::InitLogManager	8912
+Info	2024-12-03 18:32:29.251	mip_core_context_impl.cpp:123	java (6860)	"Loading context for application: [OP_Test_Purview Encryption], Application version: [1.14], Application ID: [3c5b6c7b-b9a7-47f6-b502-8c9b10247de2], Process name: [java], MIP SDK version: [1.14.150], Path: [%Temp%\mip]"	mipns::MipCoreContextImpl::MipCoreContextImpl	8912
+Info	2024-12-03 18:32:29.267	oneds_helper.cpp:532	java (6860)	"OneDsHelper::WriteTelemetryEvent(mip_context_create)"	mipns::OneDSHelper::WriteTelemetryEvent	8912
+Info	2024-12-03 18:32:29.267	diagnostic_utils.cpp:80	java (6860)	"Send Telemetry. Event Name : [mip_context_create]
+	App.ApplicationId: [3c5b6c7b-b9a7-47f6-b502-8c9b10247de2], Pii: [None]
+	App.ApplicationName: [OP_Test_Purview Encryption], Pii: [None]
+	App.ApplicationVersion: [1.14], Pii: [None]
+	Event.Duration: [6.7e-05], Pii: [None]
+	Event.UniqueId: [903f46e3-c2ff-46c1-b26e-253697429d80], Pii: [None]
+	EventInfo.Level: [10], Pii: [None]
+	EventInfo.PrivTags: [33554432], Pii: [None]
+	MIP.Version: [1.14.150], Pii: [None]
+	MipContext.IsMipCore: [false], Pii: [None]
+	Telemetry.CustomSettings: [], Pii: [None]
+	Telemetry.IsFastShutdownEnabled: [false], Pii: [None]
+	Telemetry.IsLocalCachingEnabled: [true], Pii: [None]
+	Telemetry.IsNetworkDetectionEnabled: [true], Pii: [None]
+	Telemetry.IsOptedOut: [false], Pii: [None]
+	iKey: [ce9aa5fb5a414ecebb15af10715bd8ff-831d197e-fc97-4df6-b998-c8c13a0fc3ce-6768], Pii: [None]
+"	mipns::WriteTelemetryEventToLog	8912
+Info	2024-12-03 18:32:29.288	policy_profile_impl.cpp:63	java (6860)	"Starting API call: pre_initialize_policy"	`anonymous-namespace'::PreInitializePolicy	8912
+Info	2024-12-03 18:32:29.288	policy_profile_impl.cpp:54	java (6860)	"Loading policy profile"	`anonymous-namespace'::PreInitializePolicy::<lambda_164361dd074decbc2d9cab14a8e8e1b6>::operator ()	8912
+Info	2024-12-03 18:32:29.288	policy_profile_impl.cpp:63	java (6860)	"Ended API call: pre_initialize_policy"	`anonymous-namespace'::PreInitializePolicy	8912
+Info	2024-12-03 18:32:29.288	oneds_helper.cpp:532	java (6860)	"OneDsHelper::WriteTelemetryEvent(pre_initialize_policy)"	mipns::OneDSHelper::WriteTelemetryEvent	8912
+Info	2024-12-03 18:32:29.288	diagnostic_utils.cpp:80	java (6860)	"Send Telemetry. Event Name : [pre_initialize_policy]
+	App.ApplicationId: [3c5b6c7b-b9a7-47f6-b502-8c9b10247de2], Pii: [None]
+	App.ApplicationName: [OP_Test_Purview Encryption], Pii: [None]
+	App.ApplicationVersion: [1.14], Pii: [None]
+	App.SessionId: [], Pii: [None]
+	Event.CorrelationId: [302a8499-9e55-408c-bbc7-88ba46d143c4], Pii: [None]
+	Event.CorrelationIdDescription: [PolicyProfile], Pii: [None]
+	Event.Duration: [0.000362], Pii: [None]
+	Event.UniqueId: [fe2ff5ba-138b-4cba-bdd6-606cc6b4088b], Pii: [None]
+	EventInfo.Level: [10], Pii: [None]
+	EventInfo.PrivTags: [33554432], Pii: [None]
+	MIP.Version: [1.14.150], Pii: [None]
+	iKey: [ce9aa5fb5a414ecebb15af10715bd8ff-831d197e-fc97-4df6-b998-c8c13a0fc3ce-6768], Pii: [None]
+"	mipns::WriteTelemetryEventToLog	8912
+Info	2024-12-03 18:32:29.289	policy_profile_impl.cpp:302	java (6860)	"Starting API call: profile_load_async scenarioId=0aa92763-d376-45c2-a6e9-c2c420c76a33"	mipns::PolicyProfile::LoadAsync	8912
+Info	2024-12-03 18:32:29.289	policy_profile_impl.cpp:302	java (6860)	"Ended API call: profile_load_async"	mipns::PolicyProfile::LoadAsync	8912
+Info	2024-12-03 18:32:29.289	policy_profile_impl.cpp:302	java (6860)	"Starting API task: profile_load_async scenarioId=0aa92763-d376-45c2-a6e9-c2c420c76a33"	mipns::PolicyProfile::LoadAsync	12916
+Info	2024-12-03 18:32:29.289	policy_store_impl.cpp:114	java (6860)	"PolicyStoreImpl configured to use in-memory caching."	mipns::PolicyStoreImpl::PolicyStoreImpl	12916
+Info	2024-12-03 18:32:29.290	policy_store_impl.cpp:123	java (6860)	"Policy storage path: :memory:"	mipns::PolicyStoreImpl::PolicyStoreImpl	12916
+Info	2024-12-03 18:32:29.293	openssl_crypto_delegate_impl.cpp:118	java (6860)	"OpenSSL provider loaded: [default]"	mipns::OpenSslCryptoDelegateImpl::{ctor}::<lambda_510f5669650f4951dde3c1e2ca18d128>::operator ()	12916
+Info	2024-12-03 18:32:29.296	policy_profile_impl.cpp:358	java (6860)	"Policy API configured to use default HttpDelegate"	mipns::ProfileImpl::ProfileImpl	12916
+Info	2024-12-03 18:32:29.296	policy_profile_impl.cpp:364	java (6860)	"Policy API configured to use default TaskDispatcherDelegate"	mipns::ProfileImpl::ProfileImpl	12916
+Info	2024-12-03 18:32:29.297	oneds_helper.cpp:532	java (6860)	"OneDsHelper::WriteTelemetryEvent(profile_load_async)"	mipns::OneDSHelper::WriteTelemetryEvent	12916
+Info	2024-12-03 18:32:29.298	diagnostic_utils.cpp:80	java (6860)	"Send Telemetry. Event Name : [profile_load_async]
+	App.ApplicationId: [3c5b6c7b-b9a7-47f6-b502-8c9b10247de2], Pii: [None]
+	App.ApplicationName: [OP_Test_Purview Encryption], Pii: [None]
+	App.ApplicationVersion: [1.14], Pii: [None]
+	App.SessionId: [], Pii: [None]
+	Event.CorrelationId: [302a8499-9e55-408c-bbc7-88ba46d143c4], Pii: [None]
+	Event.CorrelationIdDescription: [PolicyProfile], Pii: [None]
+	Event.Duration: [0.0072039], Pii: [None]
+	Event.UniqueId: [02dcac90-35e4-43b8-9f5d-17ee6155efc4], Pii: [None]
+	EventInfo.Level: [10], Pii: [None]
+	EventInfo.PrivTags: [33554432], Pii: [None]
+	MIP.Version: [1.14.150], Pii: [None]
+	iKey: [ce9aa5fb5a414ecebb15af10715bd8ff-831d197e-fc97-4df6-b998-c8c13a0fc3ce-6768], Pii: [None]
+"	mipns::WriteTelemetryEventToLog	12916
+Info	2024-12-03 18:32:29.298	policy_profile_impl.cpp:302	java (6860)	"Ended API task: profile_load_async"	mipns::PolicyProfile::LoadAsync	12916
+Info	2024-12-03 18:32:29.298	common/api_utils.h:195	java (6860)	"Start calling success callback for API: profile_load_async"	mipns::TryExecuteSuccessCallback::<lambda_1d2bad13933e74feb4b66203fb5a4cfd>::operator ()	2244
+Info	2024-12-03 18:32:29.299	protection_profile_impl.cpp:62	java (6860)	"Starting API call: protection_profile_pre_initialize"	mipns::PreInitializeProtection	2244
+Info	2024-12-03 18:32:29.299	protection_profile_impl.cpp:55	java (6860)	"Loading protection profile. EUL caching state: [1]"	mipns::PreInitializeProtection::<lambda_e4df632cb0049f7208c3a3ba1a1a7beb>::operator ()	2244
+Info	2024-12-03 18:32:29.299	protection_profile_impl.cpp:62	java (6860)	"Ended API call: protection_profile_pre_initialize"	mipns::PreInitializeProtection	2244
+Info	2024-12-03 18:32:29.300	oneds_helper.cpp:532	java (6860)	"OneDsHelper::WriteTelemetryEvent(protection_profile_pre_initialize)"	mipns::OneDSHelper::WriteTelemetryEvent	2244
+Info	2024-12-03 18:32:29.300	diagnostic_utils.cpp:80	java (6860)	"Send Telemetry. Event Name : [protection_profile_pre_initialize]
+	App.ApplicationId: [3c5b6c7b-b9a7-47f6-b502-8c9b10247de2], Pii: [None]
+	App.ApplicationName: [OP_Test_Purview Encryption], Pii: [None]
+	App.ApplicationVersion: [1.14], Pii: [None]
+	App.SessionId: [], Pii: [None]
+	Event.CorrelationId: [163e9d2e-3067-4af9-b81f-2daa32f65228], Pii: [None]
+	Event.CorrelationIdDescription: [ProtectionProfile], Pii: [None]
+	Event.Duration: [0.0004234], Pii: [None]
+	Event.UniqueId: [2f27e214-6c7c-4eba-bed3-96417bbbf2c7], Pii: [None]
+	EventInfo.Level: [10], Pii: [None]
+	EventInfo.PrivTags: [33554432], Pii: [None]
+	MIP.Version: [1.14.150], Pii: [None]
+	iKey: [ce9aa5fb5a414ecebb15af10715bd8ff-831d197e-fc97-4df6-b998-c8c13a0fc3ce-6768], Pii: [None]
+"	mipns::WriteTelemetryEventToLog	2244
+Info	2024-12-03 18:32:29.300	protection_profile_impl.cpp:137	java (6860)	"Starting API call: protection_profile_load_async scenarioId=7f6462f5-5e8d-4584-85b2-ed6b6b356298"	mipns::ProtectionProfile::LoadAsync	2244
+Info	2024-12-03 18:32:29.300	protection_profile_impl.cpp:137	java (6860)	"Ended API call: protection_profile_load_async"	mipns::ProtectionProfile::LoadAsync	2244
+Info	2024-12-03 18:32:29.300	common/api_utils.h:197	java (6860)	"Ended calling success callback for API: profile_load_async"	mipns::TryExecuteSuccessCallback::<lambda_1d2bad13933e74feb4b66203fb5a4cfd>::operator ()	2244
+Info	2024-12-03 18:32:29.301	protection_profile_impl.cpp:137	java (6860)	"Starting API task: protection_profile_load_async scenarioId=7f6462f5-5e8d-4584-85b2-ed6b6b356298"	mipns::ProtectionProfile::LoadAsync	17532
+Info	2024-12-03 18:32:29.305	storage_manager.cpp:86	java (6860)	"StorageManager configured to use in-memory caching."	mipns::StorageManager::StorageManager	17532
+Info	2024-12-03 18:32:29.306	storage_manager.cpp:95	java (6860)	"Protection storage path: :memory:"	mipns::StorageManager::StorageManager	17532
+Info	2024-12-03 18:32:29.306	protection_profile_impl.cpp:195	java (6860)	"Protection API configured to use default HttpDelegate"	mipns::ProtectionProfileImpl::ProtectionProfileImpl	17532
+Info	2024-12-03 18:32:29.306	protection_profile_impl.cpp:201	java (6860)	"Protection API configured to use default TaskDispatcherDelegate"	mipns::ProtectionProfileImpl::ProtectionProfileImpl	17532
+Info	2024-12-03 18:32:29.307	oneds_helper.cpp:532	java (6860)	"OneDsHelper::WriteTelemetryEvent(protection_profile_load_async)"	mipns::OneDSHelper::WriteTelemetryEvent	17532
+Info	2024-12-03 18:32:29.307	diagnostic_utils.cpp:80	java (6860)	"Send Telemetry. Event Name : [protection_profile_load_async]
+	App.ApplicationId: [3c5b6c7b-b9a7-47f6-b502-8c9b10247de2], Pii: [None]
+	App.ApplicationName: [OP_Test_Purview Encryption], Pii: [None]
+	App.ApplicationVersion: [1.14], Pii: [None]
+	App.SessionId: [], Pii: [None]
+	Event.CorrelationId: [163e9d2e-3067-4af9-b81f-2daa32f65228], Pii: [None]
+	Event.CorrelationIdDescription: [ProtectionProfile], Pii: [None]
+	Event.Duration: [0.0061729], Pii: [None]
+	Event.UniqueId: [b83f1233-e4b2-45ff-b062-a5528692a587], Pii: [None]
+	EventInfo.Level: [10], Pii: [None]
+	EventInfo.PrivTags: [33554432], Pii: [None]
+	MIP.Version: [1.14.150], Pii: [None]
+	iKey: [ce9aa5fb5a414ecebb15af10715bd8ff-831d197e-fc97-4df6-b998-c8c13a0fc3ce-6768], Pii: [None]
+"	mipns::WriteTelemetryEventToLog	17532
+Info	2024-12-03 18:32:29.309	protection_profile_impl.cpp:137	java (6860)	"Ended API task: protection_profile_load_async"	mipns::ProtectionProfile::LoadAsync	17532
+Info	2024-12-03 18:32:29.310	common/api_utils.h:195	java (6860)	"Start calling success callback for API: protection_profile_load_async"	mipns::TryExecuteSuccessCallback::<lambda_959706c8c804700e1fc5b45da9730014>::operator ()	8428
+Info	2024-12-03 18:32:29.315	common/api_utils.h:197	java (6860)	"Ended calling success callback for API: protection_profile_load_async"	mipns::TryExecuteSuccessCallback::<lambda_959706c8c804700e1fc5b45da9730014>::operator ()	8428
+Info	2024-12-03 18:32:29.335	policy_profile_impl.cpp:522	java (6860)	"Starting API call: profile_add_engine_async scenarioId=435dae94-195f-49af-b98b-7f4e4caa768a"	mipns::ProfileImpl::AddEngineAsync	8912
+Info	2024-12-03 18:32:29.335	policy_profile_impl.cpp:522	java (6860)	"Ended API call: profile_add_engine_async"	mipns::ProfileImpl::AddEngineAsync	8912
+Info	2024-12-03 18:32:29.335	policy_profile_impl.cpp:522	java (6860)	"Starting API task: profile_add_engine_async"	mipns::ProfileImpl::AddEngineAsync	12916
+Info	2024-12-03 18:32:29.336	policy_profile_impl.cpp:522	java (6860)	"Starting API task: profile_add_engine_async scenarioId=435dae94-195f-49af-b98b-7f4e4caa768a"	mipns::ProfileImpl::AddEngineAsync	12916
+Info	2024-12-03 18:32:29.336	policy_profile_impl.cpp:244	java (6860)	"Starting to add policy engine with engine id: 123"	`anonymous-namespace'::CreateEngineAsync	12916
+Warning	2024-12-03 18:32:29.336	policy_engine_manager_impl.cpp:275	java (6860)	"Inconsistent label & sensitivity policy detected. Removing both from cache if it exists."	mipns::PolicyEngineManagerImpl::DeletePolicyFromStorage	12916
+Info	2024-12-03 18:32:31.488	policy_engine_manager_impl.cpp:358	java (6860)	"Loading new policy engine (requires fetch): 123"	mipns::PolicyEngineManagerImpl::LoadNewEngineAsync	12916
+Info	2024-12-03 18:32:31.489	auth_request_transformer.cpp:155	java (6860)	"Requesting auth token from app. Resource: 'https://syncservice.o365syncservice.com/', Authority: 'https://login.windows.net/common', Scope: '', Claims: ''"	mipns::AuthRequestTransformer::GetAuthToken	12916
+Info	2024-12-03 18:32:32.417	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 2.1579 ID: OneDS_HTTP-0"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	10012
+Info	2024-12-03 18:43:51.036	auth_request_transformer.cpp:169	java (6860)	"Authentication response time (seconds): 679.547"	mipns::AuthRequestTransformer::GetAuthToken	12916
+Info	2024-12-03 18:43:51.046	auth_request_transformer.cpp:48	java (6860)	"Failed to get auth token from cached auth header. Failed with: [NoAuthTokenError: 'Client application failed to provide authentication token for HTTP request.']"	mipns::AuthRequestTransformer::TransformRequestPriorToInitialSend	12916
+Info	2024-12-03 18:43:51.048	http_director_impl.cpp:141	java (6860)	"Sending HTTP request: ID: {C2095997-AE01-47B7-9220-77315D92E46E}, Type: GET, Url: https://dataservice.protection.outlook.com/PsorWebService/v1/ClientSyncFile/MipPolicies?supportedMaxVersion=1.0.50.0, Body Size: 0, Headers['ClientInfo'] = 'mip_ver=1.14.150;os_name=win;os_ver=10-0-19045;runtime=msvc-1929;arch=x64', Headers['Capabilities'] = 'BestEffortEntityMatch,BestEffortCCSIMatch,SchematizedDataContentType', Headers['Content-Type'] = 'application/xml;charset=utf-8'"	mipns::HttpDirectorImpl::DoSendHttp	12916
+Info	2024-12-03 18:43:51.072	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0239875 ID: {C2095997-AE01-47B7-9220-77315D92E46E}"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	15900
+Info	2024-12-03 18:43:51.073	oneds_helper.cpp:532	java (6860)	"OneDsHelper::WriteTelemetryEvent(policy_sync_acquire_policy)"	mipns::OneDSHelper::WriteTelemetryEvent	15900
+Info	2024-12-03 18:43:51.073	diagnostic_utils.cpp:80	java (6860)	"Send Telemetry. Event Name : [policy_sync_acquire_policy]
+	App.ApplicationId: [3c5b6c7b-b9a7-47f6-b502-8c9b10247de2], Pii: [None]
+	App.ApplicationName: [OP_Test_Purview Encryption], Pii: [None]
+	App.ApplicationVersion: [1.14], Pii: [None]
+	App.SessionId: [], Pii: [None]
+	Engine.SessionId: [], Pii: [None]
+	Event.CorrelationId: [3a7fee5f-6c50-4b96-b2f0-984e5ec2a884], Pii: [None]
+	Event.CorrelationIdDescription: [HttpDirector], Pii: [None]
+	Event.Duration: [0.0249457], Pii: [None]
+	Event.ErrorType: [NetworkError], Pii: [None]
+	Event.Failed.File: [src\core\api_impl\http\http_director_impl.cpp], Pii: [None]
+	Event.Failed.Func: [mipns::HttpTelemetryHelper::NotifyOperationComplete], Pii: [None]
+	Event.Failed.Line: [374], Pii: [None]
+	Event.Failed.Message: [No HTTP response. Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://dataservice.protection.outlook.com/PsorWebService/v1/ClientSyncFile/MipPolicies, HttpRequest.Id={C2095997-AE01-47B7-9220-77315D92E46E}']], Pii: [None]
+	Event.ParentCorrelationId: [302a8499-9e55-408c-bbc7-88ba46d143c4], Pii: [None]
+	Event.ParentCorrelationIdDescription: [PolicyProfile], Pii: [None]
+	Event.UniqueId: [f66afe3e-5b65-44f3-a396-6342687c4d69], Pii: [None]
+	EventInfo.Level: [10], Pii: [None]
+	EventInfo.PrivTags: [33554432], Pii: [None]
+	MIP.Version: [1.14.150], Pii: [None]
+	Request.CorrelationId: [{C2095997-AE01-47B7-9220-77315D92E46E}], Pii: [None]
+	Request.IsAsynchronous: [true], Pii: [None]
+	Request.RequestBodySize: [0], Pii: [None]
+	Request.TokenTenantId: [], Pii: [None]
+	Request.Url: [https://dataservice.protection.outlook.com/PsorWebService/v1/ClientSyncFile/MipPolicies], Pii: [None]
+	iKey: [ce9aa5fb5a414ecebb15af10715bd8ff-831d197e-fc97-4df6-b998-c8c13a0fc3ce-6768], Pii: [None]
+"	mipns::WriteTelemetryEventToLog	15900
+Info	2024-12-03 18:43:51.074	http_director_impl.cpp:38	java (6860)	"Received HTTP response: "	`anonymous-namespace'::LogHttpOperationDetails	15900
+Error	2024-12-03 18:43:51.074	http_director_impl.cpp:42	java (6860)	"HTTP operation {C2095997-AE01-47B7-9220-77315D92E46E} failed: Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://dataservice.protection.outlook.com/PsorWebService/v1/ClientSyncFile/MipPolicies, HttpRequest.Id={C2095997-AE01-47B7-9220-77315D92E46E}']"	`anonymous-namespace'::LogHttpOperationDetails	15900
+Info	2024-12-03 18:43:51.076	api_log_cache.cpp:58	java (6860)	"{{========================================= API CACHED LOGS BEGIN =========================================================}}"	mipns::ApiLogCache::LogAllMessages	15900
+Info	2024-12-03 18:43:51.076	policy_profile_impl.cpp:522	java (6860)	"Starting API call: profile_add_engine_async scenarioId=435dae94-195f-49af-b98b-7f4e4caa768a"	mipns::ProfileImpl::AddEngineAsync	8912
+Trace	2024-12-03 18:43:51.076	default_task_dispatcher_delegate.cpp:58	java (6860)	"Dispatching task 'ApiCallback-2' to event loop"	mipns::DefaultTaskDispatcherDelegate::DispatchTask	8912
+Info	2024-12-03 18:43:51.076	policy_profile_impl.cpp:522	java (6860)	"Ended API call: profile_add_engine_async"	mipns::ProfileImpl::AddEngineAsync	8912
+Info	2024-12-03 18:43:51.076	policy_profile_impl.cpp:522	java (6860)	"Starting API task: profile_add_engine_async"	mipns::ProfileImpl::AddEngineAsync	12916
+Info	2024-12-03 18:43:51.076	policy_profile_impl.cpp:522	java (6860)	"Starting API task: profile_add_engine_async scenarioId=435dae94-195f-49af-b98b-7f4e4caa768a"	mipns::ProfileImpl::AddEngineAsync	12916
+Info	2024-12-03 18:43:51.076	policy_profile_impl.cpp:244	java (6860)	"Starting to add policy engine with engine id: 123"	`anonymous-namespace'::CreateEngineAsync	12916
+Trace	2024-12-03 18:43:51.076	policy_engine_manager_impl.cpp:480	java (6860)	"PolicyEngineManager::AddEngineAsync 123"	mipns::PolicyEngineManagerImpl::AddEngineAsync	12916
+Trace	2024-12-03 18:43:51.076	persistent_store_impl.cpp:126	java (6860)	"PersistentStoreImpl::Find: Trying to find rows for table: Policies started"	mipns::PersistentStoreImpl::Find	12916
+Trace	2024-12-03 18:43:51.076	sqlite_storage_table.cpp:186	java (6860)	"SQLiteStorageTable::Find: Trying to find rows for table: Policies"	mipns::SQLiteStorageTable::Find	12916
+Trace	2024-12-03 18:43:51.076	sqlite_storage_table.cpp:213	java (6860)	"Found no matching rows."	mipns::SQLiteStorageTable::Find	12916
+Trace	2024-12-03 18:43:51.077	persistent_store_impl.cpp:136	java (6860)	"PersistentStoreImpl::Find: Trying to find rows for table: Policies completed"	mipns::PersistentStoreImpl::Find	12916
+Warning	2024-12-03 18:43:51.077	policy_engine_manager_impl.cpp:275	java (6860)	"Inconsistent label & sensitivity policy detected. Removing both from cache if it exists."	mipns::PolicyEngineManagerImpl::DeletePolicyFromStorage	12916
+Trace	2024-12-03 18:43:51.077	persistent_store_impl.cpp:111	java (6860)	"PersistentStoreImpl::Delete: Trying to delete rows for table: Policies started"	mipns::PersistentStoreImpl::Delete	12916
+Trace	2024-12-03 18:43:51.077	sqlite_storage_table.cpp:163	java (6860)	"SQLiteStorageTable::Delete: Trying to delete rows for table: Policies"	mipns::SQLiteStorageTable::Delete	12916
+Trace	2024-12-03 18:43:51.077	persistent_store_impl.cpp:120	java (6860)	"PersistentStoreImpl::Delete: Trying to delete rows for table: Policies completed"	mipns::PersistentStoreImpl::Delete	12916
+Trace	2024-12-03 18:43:51.077	persistent_store_impl.cpp:111	java (6860)	"PersistentStoreImpl::Delete: Trying to delete rows for table: Sensitivity started"	mipns::PersistentStoreImpl::Delete	12916
+Trace	2024-12-03 18:43:51.077	sqlite_storage_table.cpp:163	java (6860)	"SQLiteStorageTable::Delete: Trying to delete rows for table: Sensitivity"	mipns::SQLiteStorageTable::Delete	12916
+Trace	2024-12-03 18:43:51.077	persistent_store_impl.cpp:120	java (6860)	"PersistentStoreImpl::Delete: Trying to delete rows for table: Sensitivity completed"	mipns::PersistentStoreImpl::Delete	12916
+Info	2024-12-03 18:43:51.077	policy_engine_manager_impl.cpp:358	java (6860)	"Loading new policy engine (requires fetch): 123"	mipns::PolicyEngineManagerImpl::LoadNewEngineAsync	12916
+Trace	2024-12-03 18:43:51.077	persistent_store_impl.cpp:126	java (6860)	"PersistentStoreImpl::Find: Trying to find rows for table: Policies started"	mipns::PersistentStoreImpl::Find	12916
+Trace	2024-12-03 18:43:51.077	sqlite_storage_table.cpp:186	java (6860)	"SQLiteStorageTable::Find: Trying to find rows for table: Policies"	mipns::SQLiteStorageTable::Find	12916
+Trace	2024-12-03 18:43:51.077	sqlite_storage_table.cpp:213	java (6860)	"Found no matching rows."	mipns::SQLiteStorageTable::Find	12916
+Trace	2024-12-03 18:43:51.077	persistent_store_impl.cpp:136	java (6860)	"PersistentStoreImpl::Find: Trying to find rows for table: Policies completed"	mipns::PersistentStoreImpl::Find	12916
+Trace	2024-12-03 18:43:51.077	policy_engine_manager_impl.cpp:614	java (6860)	"Async acquiring 'LabelAndRule' policy for engine: 123"	mipns::PolicyEngineManagerImpl::AcquirePolicyAsync	12916
+Info	2024-12-03 18:43:51.077	auth_request_transformer.cpp:155	java (6860)	"Requesting auth token from app. Resource: 'https://syncservice.o365syncservice.com/', Authority: 'https://login.windows.net/common', Scope: '', Claims: ''"	mipns::AuthRequestTransformer::GetAuthToken	12916
+Info	2024-12-03 18:43:51.077	auth_request_transformer.cpp:169	java (6860)	"Authentication response time (seconds): 679.547"	mipns::AuthRequestTransformer::GetAuthToken	12916
+Info	2024-12-03 18:43:51.077	auth_request_transformer.cpp:48	java (6860)	"Failed to get auth token from cached auth header. Failed with: [NoAuthTokenError: 'Client application failed to provide authentication token for HTTP request.']"	mipns::AuthRequestTransformer::TransformRequestPriorToInitialSend	12916
+Trace	2024-12-03 18:43:51.077	persistent_store_impl.cpp:126	java (6860)	"PersistentStoreImpl::Find: Trying to find rows for table: PoliciesUrls started"	mipns::PersistentStoreImpl::Find	12916
+Trace	2024-12-03 18:43:51.077	sqlite_storage_table.cpp:186	java (6860)	"SQLiteStorageTable::Find: Trying to find rows for table: PoliciesUrls"	mipns::SQLiteStorageTable::Find	12916
+Trace	2024-12-03 18:43:51.078	sqlite_storage_table.cpp:213	java (6860)	"Found no matching rows."	mipns::SQLiteStorageTable::Find	12916
+Trace	2024-12-03 18:43:51.078	persistent_store_impl.cpp:136	java (6860)	"PersistentStoreImpl::Find: Trying to find rows for table: PoliciesUrls completed"	mipns::PersistentStoreImpl::Find	12916
+Trace	2024-12-03 18:43:51.078	http_client_base.cpp:80	java (6860)	"Adding HTTP operation '{C2095997-AE01-47B7-9220-77315D92E46E}'"	mipns::HttpClientBase::AddOperation	12916
+Info	2024-12-03 18:43:51.078	http_director_impl.cpp:141	java (6860)	"Sending HTTP request: ID: {C2095997-AE01-47B7-9220-77315D92E46E}, Type: GET, Url: https://dataservice.protection.outlook.com/PsorWebService/v1/ClientSyncFile/MipPolicies?supportedMaxVersion=1.0.50.0, Body Size: 0, Headers['ClientInfo'] = 'mip_ver=1.14.150;os_name=win;os_ver=10-0-19045;runtime=msvc-1929;arch=x64', Headers['Capabilities'] = 'BestEffortEntityMatch,BestEffortCCSIMatch,SchematizedDataContentType', Headers['Content-Type'] = 'application/xml;charset=utf-8'"	mipns::HttpDirectorImpl::DoSendHttp	12916
+Trace	2024-12-03 18:43:51.078	http_client_base.cpp:92	java (6860)	"Removing HTTP operation '{C2095997-AE01-47B7-9220-77315D92E46E}'"	mipns::HttpClientBase::RemoveOperation	15900
+Info	2024-12-03 18:43:51.078	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0239875 ID: {C2095997-AE01-47B7-9220-77315D92E46E}"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	15900
+Info	2024-12-03 18:43:51.078	oneds_helper.cpp:532	java (6860)	"OneDsHelper::WriteTelemetryEvent(policy_sync_acquire_policy)"	mipns::OneDSHelper::WriteTelemetryEvent	15900
+Info	2024-12-03 18:43:51.078	diagnostic_utils.cpp:80	java (6860)	"Send Telemetry. Event Name : [policy_sync_acquire_policy]
+	App.ApplicationId: [3c5b6c7b-b9a7-47f6-b502-8c9b10247de2], Pii: [None]
+	App.ApplicationName: [OP_Test_Purview Encryption], Pii: [None]
+	App.ApplicationVersion: [1.14], Pii: [None]
+	App.SessionId: [], Pii: [None]
+	Engine.SessionId: [], Pii: [None]
+	Event.CorrelationId: [3a7fee5f-6c50-4b96-b2f0-984e5ec2a884], Pii: [None]
+	Event.CorrelationIdDescription: [HttpDirector], Pii: [None]
+	Event.Duration: [0.0249457], Pii: [None]
+	Event.ErrorType: [NetworkError], Pii: [None]
+	Event.Failed.File: [src\core\api_impl\http\http_director_impl.cpp], Pii: [None]
+	Event.Failed.Func: [mipns::HttpTelemetryHelper::NotifyOperationComplete], Pii: [None]
+	Event.Failed.Line: [374], Pii: [None]
+	Event.Failed.Message: [No HTTP response. Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://dataservice.protection.outlook.com/PsorWebService/v1/ClientSyncFile/MipPolicies, HttpRequest.Id={C2095997-AE01-47B7-9220-77315D92E46E}']], Pii: [None]
+	Event.ParentCorrelationId: [302a8499-9e55-408c-bbc7-88ba46d143c4], Pii: [None]
+	Event.ParentCorrelationIdDescription: [PolicyProfile], Pii: [None]
+	Event.UniqueId: [f66afe3e-5b65-44f3-a396-6342687c4d69], Pii: [None]
+	EventInfo.Level: [10], Pii: [None]
+	EventInfo.PrivTags: [33554432], Pii: [None]
+	MIP.Version: [1.14.150], Pii: [None]
+	Request.CorrelationId: [{C2095997-AE01-47B7-9220-77315D92E46E}], Pii: [None]
+	Request.IsAsynchronous: [true], Pii: [None]
+	Request.RequestBodySize: [0], Pii: [None]
+	Request.TokenTenantId: [], Pii: [None]
+	Request.Url: [https://dataservice.protection.outlook.com/PsorWebService/v1/ClientSyncFile/MipPolicies], Pii: [None]
+	iKey: [ce9aa5fb5a414ecebb15af10715bd8ff-831d197e-fc97-4df6-b998-c8c13a0fc3ce-6768], Pii: [None]
+"	mipns::WriteTelemetryEventToLog	15900
+Trace	2024-12-03 18:43:51.078	default_task_dispatcher_delegate.cpp:71	java (6860)	"Dispatching task 'OneDS_Task-3' to event loop with a 2-second delay"	mipns::DefaultTaskDispatcherDelegate::DispatchTask	15900
+Trace	2024-12-03 18:43:51.078	http_director_impl.cpp:33	java (6860)	"HTTP callback executed on thread 15900"	`anonymous-namespace'::LogHttpOperationDetails	15900
+Info	2024-12-03 18:43:51.078	http_director_impl.cpp:38	java (6860)	"Received HTTP response: "	`anonymous-namespace'::LogHttpOperationDetails	15900
+Error	2024-12-03 18:43:51.078	http_director_impl.cpp:42	java (6860)	"HTTP operation {C2095997-AE01-47B7-9220-77315D92E46E} failed: Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://dataservice.protection.outlook.com/PsorWebService/v1/ClientSyncFile/MipPolicies, HttpRequest.Id={C2095997-AE01-47B7-9220-77315D92E46E}']"	`anonymous-namespace'::LogHttpOperationDetails	15900
+Info	2024-12-03 18:43:51.078	api_log_cache.cpp:78	java (6860)	"{{========================================= API CACHED LOGS END ==========================================================}}"	mipns::ApiLogCache::LogAllMessages	15900
+Error	2024-12-03 18:43:51.079	http_director_impl.cpp:269	java (6860)	"HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://dataservice.protection.outlook.com/PsorWebService/v1/ClientSyncFile/MipPolicies, HttpRequest.Id={C2095997-AE01-47B7-9220-77315D92E46E}']"	mipns::HttpDirectorImpl::OnHttpOperationFailed	15900
+Info	2024-12-03 18:43:51.079	api_log_cache.cpp:58	java (6860)	"{{========================================= API CACHED LOGS BEGIN =========================================================}}"	mipns::ApiLogCache::LogAllMessages	15900
+Trace	2024-12-03 18:43:51.079	persistent_store_impl.cpp:111	java (6860)	"PersistentStoreImpl::Delete: Trying to delete rows for table: PoliciesUrls started"	mipns::PersistentStoreImpl::Delete	15900
+Trace	2024-12-03 18:43:51.079	sqlite_storage_table.cpp:163	java (6860)	"SQLiteStorageTable::Delete: Trying to delete rows for table: PoliciesUrls"	mipns::SQLiteStorageTable::Delete	15900
+Trace	2024-12-03 18:43:51.079	persistent_store_impl.cpp:120	java (6860)	"PersistentStoreImpl::Delete: Trying to delete rows for table: PoliciesUrls completed"	mipns::PersistentStoreImpl::Delete	15900
+Error	2024-12-03 18:43:51.079	http_director_impl.cpp:269	java (6860)	"HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://dataservice.protection.outlook.com/PsorWebService/v1/ClientSyncFile/MipPolicies, HttpRequest.Id={C2095997-AE01-47B7-9220-77315D92E46E}']"	mipns::HttpDirectorImpl::OnHttpOperationFailed	15900
+Info	2024-12-03 18:43:51.079	api_log_cache.cpp:78	java (6860)	"{{========================================= API CACHED LOGS END ==========================================================}}"	mipns::ApiLogCache::LogAllMessages	15900
+Error	2024-12-03 18:43:51.081	policy_profile_impl.cpp:522	java (6860)	"Failed API call: profile_add_engine_async Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://dataservice.protection.outlook.com/PsorWebService/v1/ClientSyncFile/MipPolicies, HttpRequest.Id={C2095997-AE01-47B7-9220-77315D92E46E}, CorrelationId=302a8499-9e55-408c-bbc7-88ba46d143c4, CorrelationId.Description=PolicyProfile']"	mipns::ProfileImpl::AddEngineAsync	15900
+Info	2024-12-03 18:43:51.082	api_log_cache.cpp:58	java (6860)	"{{========================================= API CACHED LOGS BEGIN =========================================================}}"	mipns::ApiLogCache::LogAllMessages	15900
+Error	2024-12-03 18:43:51.082	policy_profile_impl.cpp:522	java (6860)	"Failed API call: profile_add_engine_async Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://dataservice.protection.outlook.com/PsorWebService/v1/ClientSyncFile/MipPolicies, HttpRequest.Id={C2095997-AE01-47B7-9220-77315D92E46E}, CorrelationId=302a8499-9e55-408c-bbc7-88ba46d143c4, CorrelationId.Description=PolicyProfile']"	mipns::ProfileImpl::AddEngineAsync	15900
+Info	2024-12-03 18:43:51.084	api_log_cache.cpp:78	java (6860)	"{{========================================= API CACHED LOGS END ==========================================================}}"	mipns::ApiLogCache::LogAllMessages	15900
+Info	2024-12-03 18:43:51.089	policy_profile_impl.cpp:522	java (6860)	"Ended API task: profile_add_engine_async"	mipns::ProfileImpl::AddEngineAsync	15900
+Info	2024-12-03 18:43:51.089	oneds_helper.cpp:532	java (6860)	"OneDsHelper::WriteTelemetryEvent(profile_add_engine_async)"	mipns::OneDSHelper::WriteTelemetryEvent	15900
+Warning	2024-12-03 18:43:51.089	common/api_utils.h:232	java (6860)	"Start calling error callback for API: profile_add_engine_async"	mipns::TryExecuteFailureCallback::<lambda_f57fcab7c13a1e04057c4bfcfd37dbc2>::operator ()	5588
+Info	2024-12-03 18:43:51.089	diagnostic_utils.cpp:80	java (6860)	"Send Telemetry. Event Name : [profile_add_engine_async]
+	App.ApplicationId: [3c5b6c7b-b9a7-47f6-b502-8c9b10247de2], Pii: [None]
+	App.ApplicationName: [OP_Test_Purview Encryption], Pii: [None]
+	App.ApplicationVersion: [1.14], Pii: [None]
+	App.SessionId: [], Pii: [None]
+	Engine.SessionId: [], Pii: [None]
+	Event.CorrelationId: [302a8499-9e55-408c-bbc7-88ba46d143c4], Pii: [None]
+	Event.CorrelationIdDescription: [PolicyProfile], Pii: [None]
+	Event.Duration: [681.754], Pii: [None]
+	Event.ErrorType: [NetworkError], Pii: [None]
+	Event.Failed.File: [src\upe\api_impl\policy_profile_impl.cpp], Pii: [None]
+	Event.Failed.Func: [mipns::ProfileImpl::AddEngineAsync], Pii: [None]
+	Event.Failed.Line: [522], Pii: [None]
+	Event.Failed.Message: [Failed API call: profile_add_engine_async Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://dataservice.protection.outlook.com/PsorWebService/v1/ClientSyncFile/MipPolicies, HttpRequest.Id={C2095997-AE01-47B7-9220-77315D92E46E}']], Pii: [None]
+	Event.UniqueId: [fa6e28c8-39e2-4284-a0e5-db5b89102f60], Pii: [None]
+	EventInfo.Level: [10], Pii: [None]
+	EventInfo.PrivTags: [33554432], Pii: [None]
+	MIP.Version: [1.14.150], Pii: [None]
+	iKey: [ce9aa5fb5a414ecebb15af10715bd8ff-831d197e-fc97-4df6-b998-c8c13a0fc3ce-6768], Pii: [None]
+"	mipns::WriteTelemetryEventToLog	15900
+Warning	2024-12-03 18:43:51.101	common/api_utils.h:234	java (6860)	"Ended calling error callback for API: profile_add_engine_async"	mipns::TryExecuteFailureCallback::<lambda_f57fcab7c13a1e04057c4bfcfd37dbc2>::operator ()	5588
+Info	2024-12-03 18:43:55.109	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.020129 ID: OneDS_HTTP-1"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	13572
+Error	2024-12-03 18:43:55.111	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-1']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	13572
+Warning	2024-12-03 18:43:58.651	diagnostic_factory.cpp:203	java (6860)	"CreateEventContext: Provided Cloud type is invalid - using the default cloud and databoundary"	mipns::CreateEventContextInternal	8912
+Info	2024-12-03 18:43:58.652	oneds_helper.cpp:411	java (6860)	"OneDS configuration: {""name"":""mip-sdk-for-cpp-3-0"",""maxTeardownUploadTimeInSec"":1,""stats"":{""interval"":0},""enableNetworkDetector"":true,""cacheFilePath"":""%Temp%\\mip\\telemetry"",""enableTrace"":false}"	mipns::OneDSHelper::InitLogManager	8912
+Error	2024-12-03 18:43:58.652	oneds_helper.cpp:496	java (6860)	"Failed to initialize OneDS for cloud: 3 and dataBoundary: 0"	mipns::OneDSHelper::AddDiagnosticClient	8912
+Info	2024-12-03 18:43:58.653	mip_core_context_impl.cpp:123	java (6860)	"Loading context for application: [OP_Test_Purview Encryption], Application version: [1.14], Application ID: [3c5b6c7b-b9a7-47f6-b502-8c9b10247de2], Process name: [java], MIP SDK version: [1.14.150], Path: [%Temp%\mip]"	mipns::MipCoreContextImpl::MipCoreContextImpl	8912
+Info	2024-12-03 18:43:58.653	oneds_helper.cpp:532	java (6860)	"OneDsHelper::WriteTelemetryEvent(mip_context_create)"	mipns::OneDSHelper::WriteTelemetryEvent	8912
+Info	2024-12-03 18:43:58.653	diagnostic_utils.cpp:80	java (6860)	"Send Telemetry. Event Name : [mip_context_create]
+	App.ApplicationId: [3c5b6c7b-b9a7-47f6-b502-8c9b10247de2], Pii: [None]
+	App.ApplicationName: [OP_Test_Purview Encryption], Pii: [None]
+	App.ApplicationVersion: [1.14], Pii: [None]
+	Event.Duration: [4.13e-05], Pii: [None]
+	Event.UniqueId: [3bb92374-e14d-4ea1-9f0c-1b03f445cd0c], Pii: [None]
+	EventInfo.Level: [10], Pii: [None]
+	EventInfo.PrivTags: [33554432], Pii: [None]
+	MIP.Version: [1.14.150], Pii: [None]
+	MipContext.IsMipCore: [false], Pii: [None]
+	Telemetry.CustomSettings: [], Pii: [None]
+	Telemetry.IsFastShutdownEnabled: [false], Pii: [None]
+	Telemetry.IsLocalCachingEnabled: [true], Pii: [None]
+	Telemetry.IsNetworkDetectionEnabled: [true], Pii: [None]
+	Telemetry.IsOptedOut: [false], Pii: [None]
+	iKey: [ce9aa5fb5a414ecebb15af10715bd8ff-831d197e-fc97-4df6-b998-c8c13a0fc3ce-6768], Pii: [None]
+"	mipns::WriteTelemetryEventToLog	8912
+Error	2024-12-03 18:43:58.653	oneds_helper.cpp:520	java (6860)	"Failed to find OneDS client for cloud: 3 and dataBoundary: 0"	mipns::OneDSHelper::GetOneDSHandle	8912
+Info	2024-12-03 18:43:58.658	oneds_helper.cpp:411	java (6860)	"OneDS configuration: {""name"":""mip-sdk-for-cpp-3-0"",""maxTeardownUploadTimeInSec"":1,""stats"":{""interval"":0},""enableNetworkDetector"":true,""cacheFilePath"":""%Temp%\\mip\\telemetry"",""enableTrace"":false}"	mipns::OneDSHelper::InitLogManager	8912
+Error	2024-12-03 18:43:58.658	oneds_helper.cpp:496	java (6860)	"Failed to initialize OneDS for cloud: 3 and dataBoundary: 0"	mipns::OneDSHelper::AddDiagnosticClient	8912
+Info	2024-12-03 18:43:58.660	policy_profile_impl.cpp:63	java (6860)	"Starting API call: pre_initialize_policy"	`anonymous-namespace'::PreInitializePolicy	8912
+Info	2024-12-03 18:43:58.660	policy_profile_impl.cpp:54	java (6860)	"Loading policy profile"	`anonymous-namespace'::PreInitializePolicy::<lambda_164361dd074decbc2d9cab14a8e8e1b6>::operator ()	8912
+Info	2024-12-03 18:43:58.660	policy_profile_impl.cpp:63	java (6860)	"Ended API call: pre_initialize_policy"	`anonymous-namespace'::PreInitializePolicy	8912
+Info	2024-12-03 18:43:58.660	oneds_helper.cpp:532	java (6860)	"OneDsHelper::WriteTelemetryEvent(pre_initialize_policy)"	mipns::OneDSHelper::WriteTelemetryEvent	8912
+Info	2024-12-03 18:43:58.661	diagnostic_utils.cpp:80	java (6860)	"Send Telemetry. Event Name : [pre_initialize_policy]
+	App.ApplicationId: [3c5b6c7b-b9a7-47f6-b502-8c9b10247de2], Pii: [None]
+	App.ApplicationName: [OP_Test_Purview Encryption], Pii: [None]
+	App.ApplicationVersion: [1.14], Pii: [None]
+	App.SessionId: [], Pii: [None]
+	Event.CorrelationId: [fc3c1d50-2692-4ad6-92b8-78a53db39b6c], Pii: [None]
+	Event.CorrelationIdDescription: [PolicyProfile], Pii: [None]
+	Event.Duration: [0.0007339], Pii: [None]
+	Event.UniqueId: [b32026e1-c8de-4513-996b-c410136f3030], Pii: [None]
+	EventInfo.Level: [10], Pii: [None]
+	EventInfo.PrivTags: [33554432], Pii: [None]
+	MIP.Version: [1.14.150], Pii: [None]
+	iKey: [ce9aa5fb5a414ecebb15af10715bd8ff-831d197e-fc97-4df6-b998-c8c13a0fc3ce-6768], Pii: [None]
+"	mipns::WriteTelemetryEventToLog	8912
+Error	2024-12-03 18:43:58.661	oneds_helper.cpp:520	java (6860)	"Failed to find OneDS client for cloud: 3 and dataBoundary: 0"	mipns::OneDSHelper::GetOneDSHandle	8912
+Info	2024-12-03 18:43:58.661	api_log_cache.cpp:58	java (6860)	"{{========================================= API CACHED LOGS BEGIN =========================================================}}"	mipns::ApiLogCache::LogAllMessages	8912
+Info	2024-12-03 18:43:58.662	policy_profile_impl.cpp:63	java (6860)	"Starting API call: pre_initialize_policy"	`anonymous-namespace'::PreInitializePolicy	8912
+Info	2024-12-03 18:43:58.662	policy_profile_impl.cpp:54	java (6860)	"Loading policy profile"	`anonymous-namespace'::PreInitializePolicy::<lambda_164361dd074decbc2d9cab14a8e8e1b6>::operator ()	8912
+Info	2024-12-03 18:43:58.662	policy_profile_impl.cpp:63	java (6860)	"Ended API call: pre_initialize_policy"	`anonymous-namespace'::PreInitializePolicy	8912
+Info	2024-12-03 18:43:58.662	oneds_helper.cpp:532	java (6860)	"OneDsHelper::WriteTelemetryEvent(pre_initialize_policy)"	mipns::OneDSHelper::WriteTelemetryEvent	8912
+Info	2024-12-03 18:43:58.662	diagnostic_utils.cpp:80	java (6860)	"Send Telemetry. Event Name : [pre_initialize_policy]
+	App.ApplicationId: [3c5b6c7b-b9a7-47f6-b502-8c9b10247de2], Pii: [None]
+	App.ApplicationName: [OP_Test_Purview Encryption], Pii: [None]
+	App.ApplicationVersion: [1.14], Pii: [None]
+	App.SessionId: [], Pii: [None]
+	Event.CorrelationId: [fc3c1d50-2692-4ad6-92b8-78a53db39b6c], Pii: [None]
+	Event.CorrelationIdDescription: [PolicyProfile], Pii: [None]
+	Event.Duration: [0.0007339], Pii: [None]
+	Event.UniqueId: [b32026e1-c8de-4513-996b-c410136f3030], Pii: [None]
+	EventInfo.Level: [10], Pii: [None]
+	EventInfo.PrivTags: [33554432], Pii: [None]
+	MIP.Version: [1.14.150], Pii: [None]
+	iKey: [ce9aa5fb5a414ecebb15af10715bd8ff-831d197e-fc97-4df6-b998-c8c13a0fc3ce-6768], Pii: [None]
+"	mipns::WriteTelemetryEventToLog	8912
+Error	2024-12-03 18:43:58.662	oneds_helper.cpp:520	java (6860)	"Failed to find OneDS client for cloud: 3 and dataBoundary: 0"	mipns::OneDSHelper::GetOneDSHandle	8912
+Info	2024-12-03 18:43:58.662	api_log_cache.cpp:78	java (6860)	"{{========================================= API CACHED LOGS END ==========================================================}}"	mipns::ApiLogCache::LogAllMessages	8912
+Info	2024-12-03 18:43:58.663	policy_profile_impl.cpp:302	java (6860)	"Starting API call: profile_load_async scenarioId=04805d6e-fa66-45cd-b955-e545aa299291"	mipns::PolicyProfile::LoadAsync	8912
+Info	2024-12-03 18:43:58.663	policy_profile_impl.cpp:302	java (6860)	"Ended API call: profile_load_async"	mipns::PolicyProfile::LoadAsync	8912
+Info	2024-12-03 18:43:58.663	policy_profile_impl.cpp:302	java (6860)	"Starting API task: profile_load_async scenarioId=04805d6e-fa66-45cd-b955-e545aa299291"	mipns::PolicyProfile::LoadAsync	12904
+Info	2024-12-03 18:43:58.664	policy_store_impl.cpp:114	java (6860)	"PolicyStoreImpl configured to use in-memory caching."	mipns::PolicyStoreImpl::PolicyStoreImpl	12904
+Info	2024-12-03 18:43:58.664	policy_store_impl.cpp:123	java (6860)	"Policy storage path: :memory:"	mipns::PolicyStoreImpl::PolicyStoreImpl	12904
+Info	2024-12-03 18:43:58.670	policy_profile_impl.cpp:358	java (6860)	"Policy API configured to use default HttpDelegate"	mipns::ProfileImpl::ProfileImpl	12904
+Info	2024-12-03 18:43:58.670	policy_profile_impl.cpp:364	java (6860)	"Policy API configured to use default TaskDispatcherDelegate"	mipns::ProfileImpl::ProfileImpl	12904
+Info	2024-12-03 18:43:58.671	oneds_helper.cpp:532	java (6860)	"OneDsHelper::WriteTelemetryEvent(profile_load_async)"	mipns::OneDSHelper::WriteTelemetryEvent	12904
+Info	2024-12-03 18:43:58.671	diagnostic_utils.cpp:80	java (6860)	"Send Telemetry. Event Name : [profile_load_async]
+	App.ApplicationId: [3c5b6c7b-b9a7-47f6-b502-8c9b10247de2], Pii: [None]
+	App.ApplicationName: [OP_Test_Purview Encryption], Pii: [None]
+	App.ApplicationVersion: [1.14], Pii: [None]
+	App.SessionId: [], Pii: [None]
+	Event.CorrelationId: [fc3c1d50-2692-4ad6-92b8-78a53db39b6c], Pii: [None]
+	Event.CorrelationIdDescription: [PolicyProfile], Pii: [None]
+	Event.Duration: [0.0077683], Pii: [None]
+	Event.UniqueId: [b187c691-458d-4c13-8834-85db9a969eab], Pii: [None]
+	EventInfo.Level: [10], Pii: [None]
+	EventInfo.PrivTags: [33554432], Pii: [None]
+	MIP.Version: [1.14.150], Pii: [None]
+	iKey: [ce9aa5fb5a414ecebb15af10715bd8ff-831d197e-fc97-4df6-b998-c8c13a0fc3ce-6768], Pii: [None]
+"	mipns::WriteTelemetryEventToLog	12904
+Error	2024-12-03 18:43:58.671	oneds_helper.cpp:520	java (6860)	"Failed to find OneDS client for cloud: 3 and dataBoundary: 0"	mipns::OneDSHelper::GetOneDSHandle	12904
+Info	2024-12-03 18:43:58.671	api_log_cache.cpp:58	java (6860)	"{{========================================= API CACHED LOGS BEGIN =========================================================}}"	mipns::ApiLogCache::LogAllMessages	12904
+Info	2024-12-03 18:43:58.671	policy_profile_impl.cpp:302	java (6860)	"Starting API call: profile_load_async scenarioId=04805d6e-fa66-45cd-b955-e545aa299291"	mipns::PolicyProfile::LoadAsync	8912
+Trace	2024-12-03 18:43:58.671	default_task_dispatcher_delegate.cpp:58	java (6860)	"Dispatching task 'ApiObserver-4' to event loop"	mipns::DefaultTaskDispatcherDelegate::DispatchTask	8912
+Trace	2024-12-03 18:43:58.671	event_loop_basic.cpp:63	java (6860)	"Starting the event loop thread..."	mipns::EventLoopBasic::Start	8912
+Trace	2024-12-03 18:43:58.671	event_loop_basic.cpp:65	java (6860)	"Done starting the event loop thread"	mipns::EventLoopBasic::Start	8912
+Trace	2024-12-03 18:43:58.671	event_loop_timed.cpp:44	java (6860)	"Starting the timed event loop thread..."	mipns::EventLoopTimed::Start	8912
+Trace	2024-12-03 18:43:58.671	event_loop_timed.cpp:46	java (6860)	"Done starting the timed event loop thread"	mipns::EventLoopTimed::Start	8912
+Info	2024-12-03 18:43:58.671	policy_profile_impl.cpp:302	java (6860)	"Ended API call: profile_load_async"	mipns::PolicyProfile::LoadAsync	8912
+Info	2024-12-03 18:43:58.671	policy_profile_impl.cpp:302	java (6860)	"Starting API task: profile_load_async scenarioId=04805d6e-fa66-45cd-b955-e545aa299291"	mipns::PolicyProfile::LoadAsync	12904
+Trace	2024-12-03 18:43:58.671	policy_store_impl.cpp:103	java (6860)	"+PolicyStoreImpl::PolicyStoreImpl"	mipns::PolicyStoreImpl::PolicyStoreImpl	12904
+Info	2024-12-03 18:43:58.671	policy_store_impl.cpp:114	java (6860)	"PolicyStoreImpl configured to use in-memory caching."	mipns::PolicyStoreImpl::PolicyStoreImpl	12904
+Info	2024-12-03 18:43:58.671	policy_store_impl.cpp:123	java (6860)	"Policy storage path: :memory:"	mipns::PolicyStoreImpl::PolicyStoreImpl	12904
+Trace	2024-12-03 18:43:58.671	storage_factory.cpp:49	java (6860)	"CreatePersistentStore:: (Policies) No encrypted columns in schema or KeyStore not supported"	mipns::CreatePersistentStore	12904
+Trace	2024-12-03 18:43:58.671	sqlite_storage_table.cpp:223	java (6860)	"SQLiteStorageTable::OpenDatabase: Trying to create or open database file: :memory:"	mipns::SQLiteStorageTable::OpenDatabase	12904
+Trace	2024-12-03 18:43:58.672	sqlite_storage_table.cpp:253	java (6860)	"SQLiteStorageTable::GetTableColumns: Trying to find table schema for table: Policies"	mipns::SQLiteStorageTable::GetTableColumns	12904
+Trace	2024-12-03 18:43:58.672	sqlite_storage_table.cpp:280	java (6860)	"DropTableIfNeeded (Policies) tableColumnCount : 0"	mipns::SQLiteStorageTable::DropTableIfNeeded	12904
+Trace	2024-12-03 18:43:58.672	sqlite_storage_table.cpp:281	java (6860)	"DropTableIfNeeded (Policies) mColumns.size()  : 6"	mipns::SQLiteStorageTable::DropTableIfNeeded	12904
+Trace	2024-12-03 18:43:58.672	sqlite_storage_table.cpp:309	java (6860)	"SQLiteStorageTable::CreateTableIfNeeded: Trying to create table with statement: 'CREATE TABLE IF NOT EXISTS Policies (policy_id STRING, policy_identity STRING, client_data STRING, policy_data STRING, policy_file_id STRING, policy_entry_time STRING, PRIMARY KEY (policy_id));' ..."	mipns::SQLiteStorageTable::CreateTableIfNeeded	12904
+Trace	2024-12-03 18:43:58.672	storage_factory.cpp:49	java (6860)	"CreatePersistentStore:: (Sensitivity) No encrypted columns in schema or KeyStore not supported"	mipns::CreatePersistentStore	12904
+Trace	2024-12-03 18:43:58.672	sqlite_storage_table.cpp:223	java (6860)	"SQLiteStorageTable::OpenDatabase: Trying to create or open database file: :memory:"	mipns::SQLiteStorageTable::OpenDatabase	12904
+Trace	2024-12-03 18:43:58.672	sqlite_storage_table.cpp:253	java (6860)	"SQLiteStorageTable::GetTableColumns: Trying to find table schema for table: Sensitivity"	mipns::SQLiteStorageTable::GetTableColumns	12904
+Trace	2024-12-03 18:43:58.672	sqlite_storage_table.cpp:280	java (6860)	"DropTableIfNeeded (Sensitivity) tableColumnCount : 0"	mipns::SQLiteStorageTable::DropTableIfNeeded	12904
+Trace	2024-12-03 18:43:58.672	sqlite_storage_table.cpp:281	java (6860)	"DropTableIfNeeded (Sensitivity) mColumns.size()  : 6"	mipns::SQLiteStorageTable::DropTableIfNeeded	12904
+Trace	2024-12-03 18:43:58.672	sqlite_storage_table.cpp:309	java (6860)	"SQLiteStorageTable::CreateTableIfNeeded: Trying to create table with statement: 'CREATE TABLE IF NOT EXISTS Sensitivity (policy_id STRING, policy_identity STRING, client_data STRING, policy_data STRING, policy_file_id STRING, policy_entry_time STRING, PRIMARY KEY (policy_id));' ..."	mipns::SQLiteStorageTable::CreateTableIfNeeded	12904
+Trace	2024-12-03 18:43:58.672	storage_factory.cpp:49	java (6860)	"CreatePersistentStore:: (PoliciesUrls) No encrypted columns in schema or KeyStore not supported"	mipns::CreatePersistentStore	12904
+Trace	2024-12-03 18:43:58.672	sqlite_storage_table.cpp:223	java (6860)	"SQLiteStorageTable::OpenDatabase: Trying to create or open database file: :memory:"	mipns::SQLiteStorageTable::OpenDatabase	12904
+Trace	2024-12-03 18:43:58.672	sqlite_storage_table.cpp:253	java (6860)	"SQLiteStorageTable::GetTableColumns: Trying to find table schema for table: PoliciesUrls"	mipns::SQLiteStorageTable::GetTableColumns	12904
+Trace	2024-12-03 18:43:58.672	sqlite_storage_table.cpp:280	java (6860)	"DropTableIfNeeded (PoliciesUrls) tableColumnCount : 0"	mipns::SQLiteStorageTable::DropTableIfNeeded	12904
+Trace	2024-12-03 18:43:58.672	sqlite_storage_table.cpp:281	java (6860)	"DropTableIfNeeded (PoliciesUrls) mColumns.size()  : 2"	mipns::SQLiteStorageTable::DropTableIfNeeded	12904
+Trace	2024-12-03 18:43:58.672	sqlite_storage_table.cpp:309	java (6860)	"SQLiteStorageTable::CreateTableIfNeeded: Trying to create table with statement: 'CREATE TABLE IF NOT EXISTS PoliciesUrls (policy_identity STRING, cached_url STRING, PRIMARY KEY (policy_identity));' ..."	mipns::SQLiteStorageTable::CreateTableIfNeeded	12904
+Trace	2024-12-03 18:43:58.672	storage_factory.cpp:49	java (6860)	"CreatePersistentStore:: (SensitivityUrls) No encrypted columns in schema or KeyStore not supported"	mipns::CreatePersistentStore	12904
+Trace	2024-12-03 18:43:58.672	sqlite_storage_table.cpp:223	java (6860)	"SQLiteStorageTable::OpenDatabase: Trying to create or open database file: :memory:"	mipns::SQLiteStorageTable::OpenDatabase	12904
+Trace	2024-12-03 18:43:58.672	sqlite_storage_table.cpp:253	java (6860)	"SQLiteStorageTable::GetTableColumns: Trying to find table schema for table: SensitivityUrls"	mipns::SQLiteStorageTable::GetTableColumns	12904
+Trace	2024-12-03 18:43:58.672	sqlite_storage_table.cpp:280	java (6860)	"DropTableIfNeeded (SensitivityUrls) tableColumnCount : 0"	mipns::SQLiteStorageTable::DropTableIfNeeded	12904
+Trace	2024-12-03 18:43:58.672	sqlite_storage_table.cpp:281	java (6860)	"DropTableIfNeeded (SensitivityUrls) mColumns.size()  : 2"	mipns::SQLiteStorageTable::DropTableIfNeeded	12904
+Trace	2024-12-03 18:43:58.672	sqlite_storage_table.cpp:309	java (6860)	"SQLiteStorageTable::CreateTableIfNeeded: Trying to create table with statement: 'CREATE TABLE IF NOT EXISTS SensitivityUrls (policy_identity STRING, cached_url STRING, PRIMARY KEY (policy_identity));' ..."	mipns::SQLiteStorageTable::CreateTableIfNeeded	12904
+Trace	2024-12-03 18:43:58.672	policy_store_impl.cpp:167	java (6860)	"-PolicyStoreImpl::PolicyStoreImpl"	mipns::PolicyStoreImpl::PolicyStoreImpl	12904
+Info	2024-12-03 18:43:58.672	policy_profile_impl.cpp:358	java (6860)	"Policy API configured to use default HttpDelegate"	mipns::ProfileImpl::ProfileImpl	12904
+Info	2024-12-03 18:43:58.672	policy_profile_impl.cpp:364	java (6860)	"Policy API configured to use default TaskDispatcherDelegate"	mipns::ProfileImpl::ProfileImpl	12904
+Info	2024-12-03 18:43:58.672	oneds_helper.cpp:532	java (6860)	"OneDsHelper::WriteTelemetryEvent(profile_load_async)"	mipns::OneDSHelper::WriteTelemetryEvent	12904
+Info	2024-12-03 18:43:58.672	diagnostic_utils.cpp:80	java (6860)	"Send Telemetry. Event Name : [profile_load_async]
+	App.ApplicationId: [3c5b6c7b-b9a7-47f6-b502-8c9b10247de2], Pii: [None]
+	App.ApplicationName: [OP_Test_Purview Encryption], Pii: [None]
+	App.ApplicationVersion: [1.14], Pii: [None]
+	App.SessionId: [], Pii: [None]
+	Event.CorrelationId: [fc3c1d50-2692-4ad6-92b8-78a53db39b6c], Pii: [None]
+	Event.CorrelationIdDescription: [PolicyProfile], Pii: [None]
+	Event.Duration: [0.0077683], Pii: [None]
+	Event.UniqueId: [b187c691-458d-4c13-8834-85db9a969eab], Pii: [None]
+	EventInfo.Level: [10], Pii: [None]
+	EventInfo.PrivTags: [33554432], Pii: [None]
+	MIP.Version: [1.14.150], Pii: [None]
+	iKey: [ce9aa5fb5a414ecebb15af10715bd8ff-831d197e-fc97-4df6-b998-c8c13a0fc3ce-6768], Pii: [None]
+"	mipns::WriteTelemetryEventToLog	12904
+Error	2024-12-03 18:43:58.672	oneds_helper.cpp:520	java (6860)	"Failed to find OneDS client for cloud: 3 and dataBoundary: 0"	mipns::OneDSHelper::GetOneDSHandle	12904
+Info	2024-12-03 18:43:58.672	api_log_cache.cpp:78	java (6860)	"{{========================================= API CACHED LOGS END ==========================================================}}"	mipns::ApiLogCache::LogAllMessages	12904
+Info	2024-12-03 18:43:58.673	policy_profile_impl.cpp:302	java (6860)	"Ended API task: profile_load_async"	mipns::PolicyProfile::LoadAsync	12904
+Info	2024-12-03 18:43:58.673	common/api_utils.h:195	java (6860)	"Start calling success callback for API: profile_load_async"	mipns::TryExecuteSuccessCallback::<lambda_1d2bad13933e74feb4b66203fb5a4cfd>::operator ()	22372
+Info	2024-12-03 18:43:58.676	oneds_helper.cpp:411	java (6860)	"OneDS configuration: {""name"":""mip-sdk-for-cpp-3-0"",""maxTeardownUploadTimeInSec"":1,""stats"":{""interval"":0},""enableNetworkDetector"":true,""cacheFilePath"":""%Temp%\\mip\\telemetry"",""enableTrace"":false}"	mipns::OneDSHelper::InitLogManager	22372
+Error	2024-12-03 18:43:58.676	oneds_helper.cpp:496	java (6860)	"Failed to initialize OneDS for cloud: 3 and dataBoundary: 0"	mipns::OneDSHelper::AddDiagnosticClient	22372
+Info	2024-12-03 18:43:58.676	api_log_cache.cpp:58	java (6860)	"{{========================================= API CACHED LOGS BEGIN =========================================================}}"	mipns::ApiLogCache::LogAllMessages	22372
+Trace	2024-12-03 18:43:58.676	default_task_dispatcher_delegate.cpp:83	java (6860)	"Executing task 'ApiSuccess-5' on a new detached thread"	mipns::DefaultTaskDispatcherDelegate::ExecuteTaskOnIndependentThread	12904
+Info	2024-12-03 18:43:58.676	policy_profile_impl.cpp:302	java (6860)	"Ended API task: profile_load_async"	mipns::PolicyProfile::LoadAsync	12904
+Info	2024-12-03 18:43:58.677	common/api_utils.h:195	java (6860)	"Start calling success callback for API: profile_load_async"	mipns::TryExecuteSuccessCallback::<lambda_1d2bad13933e74feb4b66203fb5a4cfd>::operator ()	22372
+Trace	2024-12-03 18:43:58.677	oneds_helper.cpp:338	java (6860)	"Initializing OneDS LogManager, fastShutdownEnabled: false"	mipns::OneDSHelper::GenerateConfiguration	22372
+Info	2024-12-03 18:43:58.677	oneds_helper.cpp:411	java (6860)	"OneDS configuration: {""name"":""mip-sdk-for-cpp-3-0"",""maxTeardownUploadTimeInSec"":1,""stats"":{""interval"":0},""enableNetworkDetector"":true,""cacheFilePath"":""%Temp%\\mip\\telemetry"",""enableTrace"":false}"	mipns::OneDSHelper::InitLogManager	22372
+Error	2024-12-03 18:43:58.677	oneds_helper.cpp:496	java (6860)	"Failed to initialize OneDS for cloud: 3 and dataBoundary: 0"	mipns::OneDSHelper::AddDiagnosticClient	22372
+Info	2024-12-03 18:43:58.677	api_log_cache.cpp:78	java (6860)	"{{========================================= API CACHED LOGS END ==========================================================}}"	mipns::ApiLogCache::LogAllMessages	22372
+Info	2024-12-03 18:43:58.680	protection_profile_impl.cpp:62	java (6860)	"Starting API call: protection_profile_pre_initialize"	mipns::PreInitializeProtection	22372
+Info	2024-12-03 18:43:58.681	protection_profile_impl.cpp:55	java (6860)	"Loading protection profile. EUL caching state: [1]"	mipns::PreInitializeProtection::<lambda_e4df632cb0049f7208c3a3ba1a1a7beb>::operator ()	22372
+Info	2024-12-03 18:43:58.681	protection_profile_impl.cpp:62	java (6860)	"Ended API call: protection_profile_pre_initialize"	mipns::PreInitializeProtection	22372
+Info	2024-12-03 18:43:58.682	oneds_helper.cpp:532	java (6860)	"OneDsHelper::WriteTelemetryEvent(protection_profile_pre_initialize)"	mipns::OneDSHelper::WriteTelemetryEvent	22372
+Info	2024-12-03 18:43:58.682	diagnostic_utils.cpp:80	java (6860)	"Send Telemetry. Event Name : [protection_profile_pre_initialize]
+	App.ApplicationId: [3c5b6c7b-b9a7-47f6-b502-8c9b10247de2], Pii: [None]
+	App.ApplicationName: [OP_Test_Purview Encryption], Pii: [None]
+	App.ApplicationVersion: [1.14], Pii: [None]
+	App.SessionId: [], Pii: [None]
+	Event.CorrelationId: [f953d4d9-a50c-4a20-b866-0f6fbcb999a1], Pii: [None]
+	Event.CorrelationIdDescription: [ProtectionProfile], Pii: [None]
+	Event.Duration: [0.0018015], Pii: [None]
+	Event.UniqueId: [593da20e-7fba-49e3-aa86-bea9b48de4f5], Pii: [None]
+	EventInfo.Level: [10], Pii: [None]
+	EventInfo.PrivTags: [33554432], Pii: [None]
+	MIP.Version: [1.14.150], Pii: [None]
+	iKey: [ce9aa5fb5a414ecebb15af10715bd8ff-831d197e-fc97-4df6-b998-c8c13a0fc3ce-6768], Pii: [None]
+"	mipns::WriteTelemetryEventToLog	22372
+Error	2024-12-03 18:43:58.682	oneds_helper.cpp:520	java (6860)	"Failed to find OneDS client for cloud: 3 and dataBoundary: 0"	mipns::OneDSHelper::GetOneDSHandle	22372
+Info	2024-12-03 18:43:58.682	api_log_cache.cpp:58	java (6860)	"{{========================================= API CACHED LOGS BEGIN =========================================================}}"	mipns::ApiLogCache::LogAllMessages	22372
+Info	2024-12-03 18:43:58.682	protection_profile_impl.cpp:62	java (6860)	"Starting API call: protection_profile_pre_initialize"	mipns::PreInitializeProtection	22372
+Info	2024-12-03 18:43:58.682	protection_profile_impl.cpp:55	java (6860)	"Loading protection profile. EUL caching state: [1]"	mipns::PreInitializeProtection::<lambda_e4df632cb0049f7208c3a3ba1a1a7beb>::operator ()	22372
+Info	2024-12-03 18:43:58.682	protection_profile_impl.cpp:62	java (6860)	"Ended API call: protection_profile_pre_initialize"	mipns::PreInitializeProtection	22372
+Info	2024-12-03 18:43:58.682	oneds_helper.cpp:532	java (6860)	"OneDsHelper::WriteTelemetryEvent(protection_profile_pre_initialize)"	mipns::OneDSHelper::WriteTelemetryEvent	22372
+Info	2024-12-03 18:43:58.682	diagnostic_utils.cpp:80	java (6860)	"Send Telemetry. Event Name : [protection_profile_pre_initialize]
+	App.ApplicationId: [3c5b6c7b-b9a7-47f6-b502-8c9b10247de2], Pii: [None]
+	App.ApplicationName: [OP_Test_Purview Encryption], Pii: [None]
+	App.ApplicationVersion: [1.14], Pii: [None]
+	App.SessionId: [], Pii: [None]
+	Event.CorrelationId: [f953d4d9-a50c-4a20-b866-0f6fbcb999a1], Pii: [None]
+	Event.CorrelationIdDescription: [ProtectionProfile], Pii: [None]
+	Event.Duration: [0.0018015], Pii: [None]
+	Event.UniqueId: [593da20e-7fba-49e3-aa86-bea9b48de4f5], Pii: [None]
+	EventInfo.Level: [10], Pii: [None]
+	EventInfo.PrivTags: [33554432], Pii: [None]
+	MIP.Version: [1.14.150], Pii: [None]
+	iKey: [ce9aa5fb5a414ecebb15af10715bd8ff-831d197e-fc97-4df6-b998-c8c13a0fc3ce-6768], Pii: [None]
+"	mipns::WriteTelemetryEventToLog	22372
+Error	2024-12-03 18:43:58.682	oneds_helper.cpp:520	java (6860)	"Failed to find OneDS client for cloud: 3 and dataBoundary: 0"	mipns::OneDSHelper::GetOneDSHandle	22372
+Info	2024-12-03 18:43:58.682	api_log_cache.cpp:78	java (6860)	"{{========================================= API CACHED LOGS END ==========================================================}}"	mipns::ApiLogCache::LogAllMessages	22372
+Info	2024-12-03 18:43:58.683	protection_profile_impl.cpp:137	java (6860)	"Starting API call: protection_profile_load_async scenarioId=7dc2246c-fd7c-4d5b-8153-da6d1a44a754"	mipns::ProtectionProfile::LoadAsync	22372
+Info	2024-12-03 18:43:58.683	protection_profile_impl.cpp:137	java (6860)	"Ended API call: protection_profile_load_async"	mipns::ProtectionProfile::LoadAsync	22372
+Info	2024-12-03 18:43:58.683	protection_profile_impl.cpp:137	java (6860)	"Starting API task: protection_profile_load_async scenarioId=7dc2246c-fd7c-4d5b-8153-da6d1a44a754"	mipns::ProtectionProfile::LoadAsync	8696
+Info	2024-12-03 18:43:58.683	common/api_utils.h:197	java (6860)	"Ended calling success callback for API: profile_load_async"	mipns::TryExecuteSuccessCallback::<lambda_1d2bad13933e74feb4b66203fb5a4cfd>::operator ()	22372
+Info	2024-12-03 18:43:58.697	storage_manager.cpp:86	java (6860)	"StorageManager configured to use in-memory caching."	mipns::StorageManager::StorageManager	8696
+Info	2024-12-03 18:43:58.698	storage_manager.cpp:95	java (6860)	"Protection storage path: :memory:"	mipns::StorageManager::StorageManager	8696
+Info	2024-12-03 18:43:58.698	protection_profile_impl.cpp:195	java (6860)	"Protection API configured to use default HttpDelegate"	mipns::ProtectionProfileImpl::ProtectionProfileImpl	8696
+Info	2024-12-03 18:43:58.698	protection_profile_impl.cpp:201	java (6860)	"Protection API configured to use default TaskDispatcherDelegate"	mipns::ProtectionProfileImpl::ProtectionProfileImpl	8696
+Info	2024-12-03 18:43:58.699	oneds_helper.cpp:532	java (6860)	"OneDsHelper::WriteTelemetryEvent(protection_profile_load_async)"	mipns::OneDSHelper::WriteTelemetryEvent	8696
+Info	2024-12-03 18:43:58.700	diagnostic_utils.cpp:80	java (6860)	"Send Telemetry. Event Name : [protection_profile_load_async]
+	App.ApplicationId: [3c5b6c7b-b9a7-47f6-b502-8c9b10247de2], Pii: [None]
+	App.ApplicationName: [OP_Test_Purview Encryption], Pii: [None]
+	App.ApplicationVersion: [1.14], Pii: [None]
+	App.SessionId: [], Pii: [None]
+	Event.CorrelationId: [f953d4d9-a50c-4a20-b866-0f6fbcb999a1], Pii: [None]
+	Event.CorrelationIdDescription: [ProtectionProfile], Pii: [None]
+	Event.Duration: [0.0156424], Pii: [None]
+	Event.UniqueId: [2ee19673-4c31-46e9-8a76-e7a7768d69cb], Pii: [None]
+	EventInfo.Level: [10], Pii: [None]
+	EventInfo.PrivTags: [33554432], Pii: [None]
+	MIP.Version: [1.14.150], Pii: [None]
+	iKey: [ce9aa5fb5a414ecebb15af10715bd8ff-831d197e-fc97-4df6-b998-c8c13a0fc3ce-6768], Pii: [None]
+"	mipns::WriteTelemetryEventToLog	8696
+Error	2024-12-03 18:43:58.700	oneds_helper.cpp:520	java (6860)	"Failed to find OneDS client for cloud: 3 and dataBoundary: 0"	mipns::OneDSHelper::GetOneDSHandle	8696
+Info	2024-12-03 18:43:58.700	api_log_cache.cpp:58	java (6860)	"{{========================================= API CACHED LOGS BEGIN =========================================================}}"	mipns::ApiLogCache::LogAllMessages	8696
+Info	2024-12-03 18:43:58.700	protection_profile_impl.cpp:137	java (6860)	"Starting API call: protection_profile_load_async scenarioId=7dc2246c-fd7c-4d5b-8153-da6d1a44a754"	mipns::ProtectionProfile::LoadAsync	22372
+Trace	2024-12-03 18:43:58.700	default_task_dispatcher_delegate.cpp:58	java (6860)	"Dispatching task 'ApiObserver-2' to event loop"	mipns::DefaultTaskDispatcherDelegate::DispatchTask	22372
+Trace	2024-12-03 18:43:58.700	event_loop_basic.cpp:63	java (6860)	"Starting the event loop thread..."	mipns::EventLoopBasic::Start	22372
+Trace	2024-12-03 18:43:58.700	event_loop_basic.cpp:65	java (6860)	"Done starting the event loop thread"	mipns::EventLoopBasic::Start	22372
+Info	2024-12-03 18:43:58.700	protection_profile_impl.cpp:137	java (6860)	"Ended API call: protection_profile_load_async"	mipns::ProtectionProfile::LoadAsync	22372
+Info	2024-12-03 18:43:58.700	protection_profile_impl.cpp:137	java (6860)	"Starting API task: protection_profile_load_async scenarioId=7dc2246c-fd7c-4d5b-8153-da6d1a44a754"	mipns::ProtectionProfile::LoadAsync	8696
+Trace	2024-12-03 18:43:58.700	license_store.cpp:45	java (6860)	"+PersistentLicenseStore::PersistentLicenseStore"	mipns::PersistentLicenseStore::PersistentLicenseStore	8696
+Trace	2024-12-03 18:43:58.700	storage_factory.cpp:49	java (6860)	"CreatePersistentStore:: (LicenseStore) No encrypted columns in schema or KeyStore not supported"	mipns::CreatePersistentStore	8696
+Trace	2024-12-03 18:43:58.700	sqlite_storage_table.cpp:223	java (6860)	"SQLiteStorageTable::OpenDatabase: Trying to create or open database file: :memory:"	mipns::SQLiteStorageTable::OpenDatabase	8696
+Trace	2024-12-03 18:43:58.701	sqlite_storage_table.cpp:253	java (6860)	"SQLiteStorageTable::GetTableColumns: Trying to find table schema for table: LicenseStore"	mipns::SQLiteStorageTable::GetTableColumns	8696
+Trace	2024-12-03 18:43:58.701	sqlite_storage_table.cpp:280	java (6860)	"DropTableIfNeeded (LicenseStore) tableColumnCount : 0"	mipns::SQLiteStorageTable::DropTableIfNeeded	8696
+Trace	2024-12-03 18:43:58.701	sqlite_storage_table.cpp:281	java (6860)	"DropTableIfNeeded (LicenseStore) mColumns.size()  : 5"	mipns::SQLiteStorageTable::DropTableIfNeeded	8696
+Trace	2024-12-03 18:43:58.702	sqlite_storage_table.cpp:309	java (6860)	"SQLiteStorageTable::CreateTableIfNeeded: Trying to create table with statement: 'CREATE TABLE IF NOT EXISTS LicenseStore (engine_id STRING, email_id STRING, license_key STRING, license_value STRING, ttl STRING, PRIMARY KEY (engine_id, email_id, license_key));' ..."	mipns::SQLiteStorageTable::CreateTableIfNeeded	8696
+Trace	2024-12-03 18:43:58.702	license_store.cpp:58	java (6860)	"-PersistentLicenseStore::PersistentLicenseStore"	mipns::PersistentLicenseStore::PersistentLicenseStore	8696
+Trace	2024-12-03 18:43:58.702	engine_store.cpp:38	java (6860)	"+EngineStore::EngineStore"	mipns::EngineStore::EngineStore	8696
+Trace	2024-12-03 18:43:58.702	storage_factory.cpp:49	java (6860)	"CreatePersistentStore:: (EngineStore) No encrypted columns in schema or KeyStore not supported"	mipns::CreatePersistentStore	8696
+Trace	2024-12-03 18:43:58.702	sqlite_storage_table.cpp:223	java (6860)	"SQLiteStorageTable::OpenDatabase: Trying to create or open database file: :memory:"	mipns::SQLiteStorageTable::OpenDatabase	8696
+Trace	2024-12-03 18:43:58.702	sqlite_storage_table.cpp:253	java (6860)	"SQLiteStorageTable::GetTableColumns: Trying to find table schema for table: EngineStore"	mipns::SQLiteStorageTable::GetTableColumns	8696
+Trace	2024-12-03 18:43:58.702	sqlite_storage_table.cpp:280	java (6860)	"DropTableIfNeeded (EngineStore) tableColumnCount : 0"	mipns::SQLiteStorageTable::DropTableIfNeeded	8696
+Trace	2024-12-03 18:43:58.702	sqlite_storage_table.cpp:281	java (6860)	"DropTableIfNeeded (EngineStore) mColumns.size()  : 3"	mipns::SQLiteStorageTable::DropTableIfNeeded	8696
+Trace	2024-12-03 18:43:58.702	sqlite_storage_table.cpp:309	java (6860)	"SQLiteStorageTable::CreateTableIfNeeded: Trying to create table with statement: 'CREATE TABLE IF NOT EXISTS EngineStore (engine_id STRING, identity STRING, client_data STRING, PRIMARY KEY (engine_id));' ..."	mipns::SQLiteStorageTable::CreateTableIfNeeded	8696
+Trace	2024-12-03 18:43:58.702	engine_store.cpp:56	java (6860)	"-EngineStore::EngineStore"	mipns::EngineStore::EngineStore	8696
+Trace	2024-12-03 18:43:58.702	consent_store.cpp:46	java (6860)	"+ConsentStore::ConsentStore"	mipns::ConsentStore::ConsentStore	8696
+Trace	2024-12-03 18:43:58.702	storage_factory.cpp:49	java (6860)	"CreatePersistentStore:: (ConsentStore) No encrypted columns in schema or KeyStore not supported"	mipns::CreatePersistentStore	8696
+Trace	2024-12-03 18:43:58.702	sqlite_storage_table.cpp:223	java (6860)	"SQLiteStorageTable::OpenDatabase: Trying to create or open database file: :memory:"	mipns::SQLiteStorageTable::OpenDatabase	8696
+Trace	2024-12-03 18:43:58.702	sqlite_storage_table.cpp:253	java (6860)	"SQLiteStorageTable::GetTableColumns: Trying to find table schema for table: ConsentStore"	mipns::SQLiteStorageTable::GetTableColumns	8696
+Trace	2024-12-03 18:43:58.702	sqlite_storage_table.cpp:280	java (6860)	"DropTableIfNeeded (ConsentStore) tableColumnCount : 0"	mipns::SQLiteStorageTable::DropTableIfNeeded	8696
+Trace	2024-12-03 18:43:58.702	sqlite_storage_table.cpp:281	java (6860)	"DropTableIfNeeded (ConsentStore) mColumns.size()  : 3"	mipns::SQLiteStorageTable::DropTableIfNeeded	8696
+Trace	2024-12-03 18:43:58.702	sqlite_storage_table.cpp:309	java (6860)	"SQLiteStorageTable::CreateTableIfNeeded: Trying to create table with statement: 'CREATE TABLE IF NOT EXISTS ConsentStore (engine_id STRING, email_id STRING, domain STRING, PRIMARY KEY (engine_id, email_id, domain));' ..."	mipns::SQLiteStorageTable::CreateTableIfNeeded	8696
+Trace	2024-12-03 18:43:58.702	consent_store.cpp:57	java (6860)	"-ConsentStore::ConsentStore"	mipns::ConsentStore::ConsentStore	8696
+Trace	2024-12-03 18:43:58.702	dnsinfo_store.cpp:37	java (6860)	"+DnsInfoStore::DnsInfoStore"	mipns::DnsInfoStore::DnsInfoStore	8696
+Trace	2024-12-03 18:43:58.702	storage_factory.cpp:49	java (6860)	"CreatePersistentStore:: (DnsInfoStore) No encrypted columns in schema or KeyStore not supported"	mipns::CreatePersistentStore	8696
+Trace	2024-12-03 18:43:58.702	sqlite_storage_table.cpp:223	java (6860)	"SQLiteStorageTable::OpenDatabase: Trying to create or open database file: :memory:"	mipns::SQLiteStorageTable::OpenDatabase	8696
+Trace	2024-12-03 18:43:58.702	sqlite_storage_table.cpp:253	java (6860)	"SQLiteStorageTable::GetTableColumns: Trying to find table schema for table: DnsInfoStore"	mipns::SQLiteStorageTable::GetTableColumns	8696
+Trace	2024-12-03 18:43:58.702	sqlite_storage_table.cpp:280	java (6860)	"DropTableIfNeeded (DnsInfoStore) tableColumnCount : 0"	mipns::SQLiteStorageTable::DropTableIfNeeded	8696
+Trace	2024-12-03 18:43:58.702	sqlite_storage_table.cpp:281	java (6860)	"DropTableIfNeeded (DnsInfoStore) mColumns.size()  : 4"	mipns::SQLiteStorageTable::DropTableIfNeeded	8696
+Trace	2024-12-03 18:43:58.702	sqlite_storage_table.cpp:309	java (6860)	"SQLiteStorageTable::CreateTableIfNeeded: Trying to create table with statement: 'CREATE TABLE IF NOT EXISTS DnsInfoStore (engine_id STRING, domain STRING, dns_result STRING, ttl STRING, PRIMARY KEY (engine_id, domain));' ..."	mipns::SQLiteStorageTable::CreateTableIfNeeded	8696
+Trace	2024-12-03 18:43:58.702	dnsinfo_store.cpp:48	java (6860)	"-DnsInfoStore::DnsInfoStore"	mipns::DnsInfoStore::DnsInfoStore	8696
+Trace	2024-12-03 18:43:58.702	sdinfo_store.cpp:86	java (6860)	"+SdInfoStore::SdInfoStore"	mipns::SdInfoStore::SdInfoStore	8696
+Trace	2024-12-03 18:43:58.702	storage_factory.cpp:49	java (6860)	"CreatePersistentStore:: (SdInfoStore) No encrypted columns in schema or KeyStore not supported"	mipns::CreatePersistentStore	8696
+Trace	2024-12-03 18:43:58.702	sqlite_storage_table.cpp:223	java (6860)	"SQLiteStorageTable::OpenDatabase: Trying to create or open database file: :memory:"	mipns::SQLiteStorageTable::OpenDatabase	8696
+Trace	2024-12-03 18:43:58.702	sqlite_storage_table.cpp:253	java (6860)	"SQLiteStorageTable::GetTableColumns: Trying to find table schema for table: SdInfoStore"	mipns::SQLiteStorageTable::GetTableColumns	8696
+Trace	2024-12-03 18:43:58.703	sqlite_storage_table.cpp:280	java (6860)	"DropTableIfNeeded (SdInfoStore) tableColumnCount : 0"	mipns::SQLiteStorageTable::DropTableIfNeeded	8696
+Trace	2024-12-03 18:43:58.703	sqlite_storage_table.cpp:281	java (6860)	"DropTableIfNeeded (SdInfoStore) mColumns.size()  : 5"	mipns::SQLiteStorageTable::DropTableIfNeeded	8696
+Trace	2024-12-03 18:43:58.703	sqlite_storage_table.cpp:309	java (6860)	"SQLiteStorageTable::CreateTableIfNeeded: Trying to create table with statement: 'CREATE TABLE IF NOT EXISTS SdInfoStore (engine_id STRING, domain STRING, url_type STRING, url STRING, ttl STRING, PRIMARY KEY (engine_id, domain, url_type));' ..."	mipns::SQLiteStorageTable::CreateTableIfNeeded	8696
+Trace	2024-12-03 18:43:58.703	sdinfo_store.cpp:97	java (6860)	"-SdInfoStore::SdInfoStore"	mipns::SdInfoStore::SdInfoStore	8696
+Trace	2024-12-03 18:43:58.703	storage_factory.cpp:49	java (6860)	"CreatePersistentStore:: (AuthInfoStore) No encrypted columns in schema or KeyStore not supported"	mipns::CreatePersistentStore	8696
+Trace	2024-12-03 18:43:58.703	sqlite_storage_table.cpp:223	java (6860)	"SQLiteStorageTable::OpenDatabase: Trying to create or open database file: :memory:"	mipns::SQLiteStorageTable::OpenDatabase	8696
+Trace	2024-12-03 18:43:58.703	sqlite_storage_table.cpp:253	java (6860)	"SQLiteStorageTable::GetTableColumns: Trying to find table schema for table: AuthInfoStore"	mipns::SQLiteStorageTable::GetTableColumns	8696
+Trace	2024-12-03 18:43:58.703	sqlite_storage_table.cpp:280	java (6860)	"DropTableIfNeeded (AuthInfoStore) tableColumnCount : 0"	mipns::SQLiteStorageTable::DropTableIfNeeded	8696
+Trace	2024-12-03 18:43:58.703	sqlite_storage_table.cpp:281	java (6860)	"DropTableIfNeeded (AuthInfoStore) mColumns.size()  : 3"	mipns::SQLiteStorageTable::DropTableIfNeeded	8696
+Trace	2024-12-03 18:43:58.703	sqlite_storage_table.cpp:309	java (6860)	"SQLiteStorageTable::CreateTableIfNeeded: Trying to create table with statement: 'CREATE TABLE IF NOT EXISTS AuthInfoStore (domain STRING, issuerId STRING, challenge STRING, PRIMARY KEY (domain, issuerId));' ..."	mipns::SQLiteStorageTable::CreateTableIfNeeded	8696
+Trace	2024-12-03 18:43:58.703	user_cert_store.cpp:47	java (6860)	"+UserCertStore::UserCertStore"	mipns::UserCertStore::UserCertStore	8696
+Trace	2024-12-03 18:43:58.703	storage_factory.cpp:49	java (6860)	"CreatePersistentStore:: (UserCertStore) No encrypted columns in schema or KeyStore not supported"	mipns::CreatePersistentStore	8696
+Trace	2024-12-03 18:43:58.703	sqlite_storage_table.cpp:223	java (6860)	"SQLiteStorageTable::OpenDatabase: Trying to create or open database file: :memory:"	mipns::SQLiteStorageTable::OpenDatabase	8696
+Trace	2024-12-03 18:43:58.703	sqlite_storage_table.cpp:253	java (6860)	"SQLiteStorageTable::GetTableColumns: Trying to find table schema for table: UserCertStore"	mipns::SQLiteStorageTable::GetTableColumns	8696
+Trace	2024-12-03 18:43:58.703	sqlite_storage_table.cpp:280	java (6860)	"DropTableIfNeeded (UserCertStore) tableColumnCount : 0"	mipns::SQLiteStorageTable::DropTableIfNeeded	8696
+Trace	2024-12-03 18:43:58.703	sqlite_storage_table.cpp:281	java (6860)	"DropTableIfNeeded (UserCertStore) mColumns.size()  : 4"	mipns::SQLiteStorageTable::DropTableIfNeeded	8696
+Trace	2024-12-03 18:43:58.703	sqlite_storage_table.cpp:309	java (6860)	"SQLiteStorageTable::CreateTableIfNeeded: Trying to create table with statement: 'CREATE TABLE IF NOT EXISTS UserCertStore (engine_id STRING, emailId STRING, user_cert STRING, ttl STRING, PRIMARY KEY (engine_id, emailId));' ..."	mipns::SQLiteStorageTable::CreateTableIfNeeded	8696
+Trace	2024-12-03 18:43:58.703	user_cert_store.cpp:58	java (6860)	"-UserCertStore::UserCertStore"	mipns::UserCertStore::UserCertStore	8696
+Trace	2024-12-03 18:43:58.703	registration_store.cpp:41	java (6860)	"+RegistrationStore::RegistrationStore"	mipns::RegistrationStore::RegistrationStore	8696
+Trace	2024-12-03 18:43:58.703	storage_factory.cpp:49	java (6860)	"CreatePersistentStore:: (RegistrationStore) No encrypted columns in schema or KeyStore not supported"	mipns::CreatePersistentStore	8696
+Trace	2024-12-03 18:43:58.703	sqlite_storage_table.cpp:223	java (6860)	"SQLiteStorageTable::OpenDatabase: Trying to create or open database file: :memory:"	mipns::SQLiteStorageTable::OpenDatabase	8696
+Trace	2024-12-03 18:43:58.703	sqlite_storage_table.cpp:253	java (6860)	"SQLiteStorageTable::GetTableColumns: Trying to find table schema for table: RegistrationStore"	mipns::SQLiteStorageTable::GetTableColumns	8696
+Trace	2024-12-03 18:43:58.703	sqlite_storage_table.cpp:280	java (6860)	"DropTableIfNeeded (RegistrationStore) tableColumnCount : 0"	mipns::SQLiteStorageTable::DropTableIfNeeded	8696
+Trace	2024-12-03 18:43:58.703	sqlite_storage_table.cpp:281	java (6860)	"DropTableIfNeeded (RegistrationStore) mColumns.size()  : 3"	mipns::SQLiteStorageTable::DropTableIfNeeded	8696
+Trace	2024-12-03 18:43:58.703	sqlite_storage_table.cpp:309	java (6860)	"SQLiteStorageTable::CreateTableIfNeeded: Trying to create table with statement: 'CREATE TABLE IF NOT EXISTS RegistrationStore (engineId STRING, contentId STRING, registrationDate STRING, PRIMARY KEY (engineId, contentId));' ..."	mipns::SQLiteStorageTable::CreateTableIfNeeded	8696
+Trace	2024-12-03 18:43:58.703	registration_store.cpp:52	java (6860)	"-RegistrationStore::RegistrationStore"	mipns::RegistrationStore::RegistrationStore	8696
+Trace	2024-12-03 18:43:58.703	template_store.cpp:75	java (6860)	"+TemplateStore::TemplateStore"	mipns::TemplateStore::TemplateStore	8696
+Trace	2024-12-03 18:43:58.703	storage_factory.cpp:49	java (6860)	"CreatePersistentStore:: (TemplateStore) No encrypted columns in schema or KeyStore not supported"	mipns::CreatePersistentStore	8696
+Trace	2024-12-03 18:43:58.703	sqlite_storage_table.cpp:223	java (6860)	"SQLiteStorageTable::OpenDatabase: Trying to create or open database file: :memory:"	mipns::SQLiteStorageTable::OpenDatabase	8696
+Trace	2024-12-03 18:43:58.703	sqlite_storage_table.cpp:253	java (6860)	"SQLiteStorageTable::GetTableColumns: Trying to find table schema for table: TemplateStore"	mipns::SQLiteStorageTable::GetTableColumns	8696
+Trace	2024-12-03 18:43:58.703	sqlite_storage_table.cpp:280	java (6860)	"DropTableIfNeeded (TemplateStore) tableColumnCount : 0"	mipns::SQLiteStorageTable::DropTableIfNeeded	8696
+Trace	2024-12-03 18:43:58.703	sqlite_storage_table.cpp:281	java (6860)	"DropTableIfNeeded (TemplateStore) mColumns.size()  : 8"	mipns::SQLiteStorageTable::DropTableIfNeeded	8696
+Trace	2024-12-03 18:43:58.703	sqlite_storage_table.cpp:309	java (6860)	"SQLiteStorageTable::CreateTableIfNeeded: Trying to create table with statement: 'CREATE TABLE IF NOT EXISTS TemplateStore (engine_id STRING, user_email STRING, template_id STRING, template_name STRING, template_description STRING, template_info_locale STRING, template_xrml STRING, template_hash STRING, PRIMARY KEY (engine_id, user_email, template_id));' ..."	mipns::SQLiteStorageTable::CreateTableIfNeeded	8696
+Trace	2024-12-03 18:43:58.703	template_store.cpp:86	java (6860)	"-TemplateStore::TemplateStore"	mipns::TemplateStore::TemplateStore	8696
+Trace	2024-12-03 18:43:58.704	persistent_engine_info_store.cpp:44	java (6860)	"+PersistentEngineInfoStore::PersistentEngineInfoStore"	mipns::PersistentEngineInfoStore::PersistentEngineInfoStore	8696
+Trace	2024-12-03 18:43:58.704	storage_factory.cpp:49	java (6860)	"CreatePersistentStore:: (EngineInfoStore) No encrypted columns in schema or KeyStore not supported"	mipns::CreatePersistentStore	8696
+Trace	2024-12-03 18:43:58.704	sqlite_storage_table.cpp:223	java (6860)	"SQLiteStorageTable::OpenDatabase: Trying to create or open database file: :memory:"	mipns::SQLiteStorageTable::OpenDatabase	8696
+Trace	2024-12-03 18:43:58.704	sqlite_storage_table.cpp:253	java (6860)	"SQLiteStorageTable::GetTableColumns: Trying to find table schema for table: EngineInfoStore"	mipns::SQLiteStorageTable::GetTableColumns	8696
+Trace	2024-12-03 18:43:58.704	sqlite_storage_table.cpp:280	java (6860)	"DropTableIfNeeded (EngineInfoStore) tableColumnCount : 0"	mipns::SQLiteStorageTable::DropTableIfNeeded	8696
+Trace	2024-12-03 18:43:58.704	sqlite_storage_table.cpp:281	java (6860)	"DropTableIfNeeded (EngineInfoStore) mColumns.size()  : 3"	mipns::SQLiteStorageTable::DropTableIfNeeded	8696
+Trace	2024-12-03 18:43:58.704	sqlite_storage_table.cpp:309	java (6860)	"SQLiteStorageTable::CreateTableIfNeeded: Trying to create table with statement: 'CREATE TABLE IF NOT EXISTS EngineInfoStore (engine_id STRING, key STRING, value STRING, PRIMARY KEY (engine_id, key));' ..."	mipns::SQLiteStorageTable::CreateTableIfNeeded	8696
+Trace	2024-12-03 18:43:58.704	persistent_engine_info_store.cpp:58	java (6860)	"-PersistentEngineInfoStore::PersistentEngineInfoStore"	mipns::PersistentEngineInfoStore::PersistentEngineInfoStore	8696
+Trace	2024-12-03 18:43:58.704	storage_manager.cpp:83	java (6860)	"+StorageManager::StorageManager"	mipns::StorageManager::StorageManager	8696
+Info	2024-12-03 18:43:58.704	storage_manager.cpp:86	java (6860)	"StorageManager configured to use in-memory caching."	mipns::StorageManager::StorageManager	8696
+Info	2024-12-03 18:43:58.704	storage_manager.cpp:95	java (6860)	"Protection storage path: :memory:"	mipns::StorageManager::StorageManager	8696
+Trace	2024-12-03 18:43:58.704	storage_manager.cpp:96	java (6860)	"-StorageManager::StorageManager"	mipns::StorageManager::StorageManager	8696
+Info	2024-12-03 18:43:58.704	protection_profile_impl.cpp:195	java (6860)	"Protection API configured to use default HttpDelegate"	mipns::ProtectionProfileImpl::ProtectionProfileImpl	8696
+Info	2024-12-03 18:43:58.704	protection_profile_impl.cpp:201	java (6860)	"Protection API configured to use default TaskDispatcherDelegate"	mipns::ProtectionProfileImpl::ProtectionProfileImpl	8696
+Info	2024-12-03 18:43:58.704	oneds_helper.cpp:532	java (6860)	"OneDsHelper::WriteTelemetryEvent(protection_profile_load_async)"	mipns::OneDSHelper::WriteTelemetryEvent	8696
+Info	2024-12-03 18:43:58.704	diagnostic_utils.cpp:80	java (6860)	"Send Telemetry. Event Name : [protection_profile_load_async]
+	App.ApplicationId: [3c5b6c7b-b9a7-47f6-b502-8c9b10247de2], Pii: [None]
+	App.ApplicationName: [OP_Test_Purview Encryption], Pii: [None]
+	App.ApplicationVersion: [1.14], Pii: [None]
+	App.SessionId: [], Pii: [None]
+	Event.CorrelationId: [f953d4d9-a50c-4a20-b866-0f6fbcb999a1], Pii: [None]
+	Event.CorrelationIdDescription: [ProtectionProfile], Pii: [None]
+	Event.Duration: [0.0156424], Pii: [None]
+	Event.UniqueId: [2ee19673-4c31-46e9-8a76-e7a7768d69cb], Pii: [None]
+	EventInfo.Level: [10], Pii: [None]
+	EventInfo.PrivTags: [33554432], Pii: [None]
+	MIP.Version: [1.14.150], Pii: [None]
+	iKey: [ce9aa5fb5a414ecebb15af10715bd8ff-831d197e-fc97-4df6-b998-c8c13a0fc3ce-6768], Pii: [None]
+"	mipns::WriteTelemetryEventToLog	8696
+Error	2024-12-03 18:43:58.704	oneds_helper.cpp:520	java (6860)	"Failed to find OneDS client for cloud: 3 and dataBoundary: 0"	mipns::OneDSHelper::GetOneDSHandle	8696
+Info	2024-12-03 18:43:58.704	api_log_cache.cpp:78	java (6860)	"{{========================================= API CACHED LOGS END ==========================================================}}"	mipns::ApiLogCache::LogAllMessages	8696
+Info	2024-12-03 18:43:58.704	protection_profile_impl.cpp:137	java (6860)	"Ended API task: protection_profile_load_async"	mipns::ProtectionProfile::LoadAsync	8696
+Info	2024-12-03 18:43:58.704	common/api_utils.h:195	java (6860)	"Start calling success callback for API: protection_profile_load_async"	mipns::TryExecuteSuccessCallback::<lambda_959706c8c804700e1fc5b45da9730014>::operator ()	9536
+Info	2024-12-03 18:43:58.705	oneds_helper.cpp:411	java (6860)	"OneDS configuration: {""name"":""mip-sdk-for-cpp-3-0"",""maxTeardownUploadTimeInSec"":1,""stats"":{""interval"":0},""enableNetworkDetector"":true,""cacheFilePath"":""%Temp%\\mip\\telemetry"",""enableTrace"":false}"	mipns::OneDSHelper::InitLogManager	9536
+Error	2024-12-03 18:43:58.705	oneds_helper.cpp:496	java (6860)	"Failed to initialize OneDS for cloud: 3 and dataBoundary: 0"	mipns::OneDSHelper::AddDiagnosticClient	9536
+Info	2024-12-03 18:43:58.705	api_log_cache.cpp:58	java (6860)	"{{========================================= API CACHED LOGS BEGIN =========================================================}}"	mipns::ApiLogCache::LogAllMessages	9536
+Trace	2024-12-03 18:43:58.705	default_task_dispatcher_delegate.cpp:83	java (6860)	"Executing task 'ApiSuccess-3' on a new detached thread"	mipns::DefaultTaskDispatcherDelegate::ExecuteTaskOnIndependentThread	8696
+Info	2024-12-03 18:43:58.705	protection_profile_impl.cpp:137	java (6860)	"Ended API task: protection_profile_load_async"	mipns::ProtectionProfile::LoadAsync	8696
+Info	2024-12-03 18:43:58.705	common/api_utils.h:195	java (6860)	"Start calling success callback for API: protection_profile_load_async"	mipns::TryExecuteSuccessCallback::<lambda_959706c8c804700e1fc5b45da9730014>::operator ()	9536
+Trace	2024-12-03 18:43:58.705	oneds_helper.cpp:338	java (6860)	"Initializing OneDS LogManager, fastShutdownEnabled: false"	mipns::OneDSHelper::GenerateConfiguration	9536
+Info	2024-12-03 18:43:58.705	oneds_helper.cpp:411	java (6860)	"OneDS configuration: {""name"":""mip-sdk-for-cpp-3-0"",""maxTeardownUploadTimeInSec"":1,""stats"":{""interval"":0},""enableNetworkDetector"":true,""cacheFilePath"":""%Temp%\\mip\\telemetry"",""enableTrace"":false}"	mipns::OneDSHelper::InitLogManager	9536
+Error	2024-12-03 18:43:58.705	oneds_helper.cpp:496	java (6860)	"Failed to initialize OneDS for cloud: 3 and dataBoundary: 0"	mipns::OneDSHelper::AddDiagnosticClient	9536
+Info	2024-12-03 18:43:58.705	api_log_cache.cpp:78	java (6860)	"{{========================================= API CACHED LOGS END ==========================================================}}"	mipns::ApiLogCache::LogAllMessages	9536
+Info	2024-12-03 18:43:58.709	common/api_utils.h:197	java (6860)	"Ended calling success callback for API: protection_profile_load_async"	mipns::TryExecuteSuccessCallback::<lambda_959706c8c804700e1fc5b45da9730014>::operator ()	9536
+Info	2024-12-03 18:43:58.712	policy_profile_impl.cpp:522	java (6860)	"Starting API call: profile_add_engine_async scenarioId=358ad7f3-0f0a-4366-8b80-8fc0f02f81b3"	mipns::ProfileImpl::AddEngineAsync	8912
+Info	2024-12-03 18:43:58.712	policy_profile_impl.cpp:522	java (6860)	"Ended API call: profile_add_engine_async"	mipns::ProfileImpl::AddEngineAsync	8912
+Info	2024-12-03 18:43:58.712	policy_profile_impl.cpp:522	java (6860)	"Starting API task: profile_add_engine_async"	mipns::ProfileImpl::AddEngineAsync	12904
+Info	2024-12-03 18:43:58.712	policy_profile_impl.cpp:522	java (6860)	"Starting API task: profile_add_engine_async scenarioId=358ad7f3-0f0a-4366-8b80-8fc0f02f81b3"	mipns::ProfileImpl::AddEngineAsync	12904
+Info	2024-12-03 18:43:58.712	policy_profile_impl.cpp:244	java (6860)	"Starting to add policy engine with engine id: 123"	`anonymous-namespace'::CreateEngineAsync	12904
+Warning	2024-12-03 18:43:58.713	policy_engine_manager_impl.cpp:275	java (6860)	"Inconsistent label & sensitivity policy detected. Removing both from cache if it exists."	mipns::PolicyEngineManagerImpl::DeletePolicyFromStorage	12904
+Info	2024-12-03 18:43:58.714	policy_engine_manager_impl.cpp:358	java (6860)	"Loading new policy engine (requires fetch): 123"	mipns::PolicyEngineManagerImpl::LoadNewEngineAsync	12904
+Info	2024-12-03 18:43:58.715	auth_request_transformer.cpp:155	java (6860)	"Requesting auth token from app. Resource: 'https://syncservice.o365syncservice.com/', Authority: 'https://login.windows.net/common', Scope: '', Claims: ''"	mipns::AuthRequestTransformer::GetAuthToken	12904
+Info	2024-12-03 18:43:58.754	auth_request_transformer.cpp:169	java (6860)	"Authentication response time (seconds): 0.0389091"	mipns::AuthRequestTransformer::GetAuthToken	12904
+Info	2024-12-03 18:43:58.755	auth_request_transformer.cpp:48	java (6860)	"Failed to get auth token from cached auth header. Failed with: [NoAuthTokenError: 'Client application failed to provide authentication token for HTTP request.']"	mipns::AuthRequestTransformer::TransformRequestPriorToInitialSend	12904
+Info	2024-12-03 18:43:58.756	http_director_impl.cpp:141	java (6860)	"Sending HTTP request: ID: {9209A137-7499-41CA-9749-DA27A1EF5502}, Type: GET, Url: https://dataservice.protection.outlook.com/PsorWebService/v1/ClientSyncFile/MipPolicies?supportedMaxVersion=1.0.50.0, Body Size: 0, Headers['ClientInfo'] = 'mip_ver=1.14.150;os_name=win;os_ver=10-0-19045;runtime=msvc-1929;arch=x64', Headers['Capabilities'] = 'BestEffortEntityMatch,BestEffortCCSIMatch,SchematizedDataContentType', Headers['Content-Type'] = 'application/xml;charset=utf-8'"	mipns::HttpDirectorImpl::DoSendHttp	12904
+Info	2024-12-03 18:43:58.779	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.023109 ID: {9209A137-7499-41CA-9749-DA27A1EF5502}"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	15900
+Info	2024-12-03 18:43:58.779	oneds_helper.cpp:532	java (6860)	"OneDsHelper::WriteTelemetryEvent(policy_sync_acquire_policy)"	mipns::OneDSHelper::WriteTelemetryEvent	15900
+Info	2024-12-03 18:43:58.779	diagnostic_utils.cpp:80	java (6860)	"Send Telemetry. Event Name : [policy_sync_acquire_policy]
+	App.ApplicationId: [3c5b6c7b-b9a7-47f6-b502-8c9b10247de2], Pii: [None]
+	App.ApplicationName: [OP_Test_Purview Encryption], Pii: [None]
+	App.ApplicationVersion: [1.14], Pii: [None]
+	App.SessionId: [], Pii: [None]
+	Engine.SessionId: [], Pii: [None]
+	Event.CorrelationId: [69e2cf04-4dd8-4576-9fed-013946d25f99], Pii: [None]
+	Event.CorrelationIdDescription: [HttpDirector], Pii: [None]
+	Event.Duration: [0.0243076], Pii: [None]
+	Event.ErrorType: [NetworkError], Pii: [None]
+	Event.Failed.File: [src\core\api_impl\http\http_director_impl.cpp], Pii: [None]
+	Event.Failed.Func: [mipns::HttpTelemetryHelper::NotifyOperationComplete], Pii: [None]
+	Event.Failed.Line: [374], Pii: [None]
+	Event.Failed.Message: [No HTTP response. Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://dataservice.protection.outlook.com/PsorWebService/v1/ClientSyncFile/MipPolicies, HttpRequest.Id={9209A137-7499-41CA-9749-DA27A1EF5502}']], Pii: [None]
+	Event.ParentCorrelationId: [fc3c1d50-2692-4ad6-92b8-78a53db39b6c], Pii: [None]
+	Event.ParentCorrelationIdDescription: [PolicyProfile], Pii: [None]
+	Event.UniqueId: [24ed1f61-24b6-49a0-9c92-1601f2427563], Pii: [None]
+	EventInfo.Level: [10], Pii: [None]
+	EventInfo.PrivTags: [33554432], Pii: [None]
+	MIP.Version: [1.14.150], Pii: [None]
+	Request.CorrelationId: [{9209A137-7499-41CA-9749-DA27A1EF5502}], Pii: [None]
+	Request.IsAsynchronous: [true], Pii: [None]
+	Request.RequestBodySize: [0], Pii: [None]
+	Request.TokenTenantId: [], Pii: [None]
+	Request.Url: [https://dataservice.protection.outlook.com/PsorWebService/v1/ClientSyncFile/MipPolicies], Pii: [None]
+	iKey: [ce9aa5fb5a414ecebb15af10715bd8ff-831d197e-fc97-4df6-b998-c8c13a0fc3ce-6768], Pii: [None]
+"	mipns::WriteTelemetryEventToLog	15900
+Error	2024-12-03 18:43:58.780	oneds_helper.cpp:520	java (6860)	"Failed to find OneDS client for cloud: 3 and dataBoundary: 0"	mipns::OneDSHelper::GetOneDSHandle	15900
+Info	2024-12-03 18:43:58.780	api_log_cache.cpp:58	java (6860)	"{{========================================= API CACHED LOGS BEGIN =========================================================}}"	mipns::ApiLogCache::LogAllMessages	15900
+Info	2024-12-03 18:43:58.780	policy_profile_impl.cpp:522	java (6860)	"Starting API call: profile_add_engine_async scenarioId=358ad7f3-0f0a-4366-8b80-8fc0f02f81b3"	mipns::ProfileImpl::AddEngineAsync	8912
+Trace	2024-12-03 18:43:58.780	default_task_dispatcher_delegate.cpp:58	java (6860)	"Dispatching task 'ApiCallback-6' to event loop"	mipns::DefaultTaskDispatcherDelegate::DispatchTask	8912
+Info	2024-12-03 18:43:58.780	policy_profile_impl.cpp:522	java (6860)	"Ended API call: profile_add_engine_async"	mipns::ProfileImpl::AddEngineAsync	8912
+Info	2024-12-03 18:43:58.780	policy_profile_impl.cpp:522	java (6860)	"Starting API task: profile_add_engine_async"	mipns::ProfileImpl::AddEngineAsync	12904
+Info	2024-12-03 18:43:58.780	policy_profile_impl.cpp:522	java (6860)	"Starting API task: profile_add_engine_async scenarioId=358ad7f3-0f0a-4366-8b80-8fc0f02f81b3"	mipns::ProfileImpl::AddEngineAsync	12904
+Info	2024-12-03 18:43:58.780	policy_profile_impl.cpp:244	java (6860)	"Starting to add policy engine with engine id: 123"	`anonymous-namespace'::CreateEngineAsync	12904
+Trace	2024-12-03 18:43:58.780	policy_engine_manager_impl.cpp:480	java (6860)	"PolicyEngineManager::AddEngineAsync 123"	mipns::PolicyEngineManagerImpl::AddEngineAsync	12904
+Trace	2024-12-03 18:43:58.780	persistent_store_impl.cpp:126	java (6860)	"PersistentStoreImpl::Find: Trying to find rows for table: Policies started"	mipns::PersistentStoreImpl::Find	12904
+Trace	2024-12-03 18:43:58.780	sqlite_storage_table.cpp:186	java (6860)	"SQLiteStorageTable::Find: Trying to find rows for table: Policies"	mipns::SQLiteStorageTable::Find	12904
+Trace	2024-12-03 18:43:58.780	sqlite_storage_table.cpp:213	java (6860)	"Found no matching rows."	mipns::SQLiteStorageTable::Find	12904
+Trace	2024-12-03 18:43:58.780	persistent_store_impl.cpp:136	java (6860)	"PersistentStoreImpl::Find: Trying to find rows for table: Policies completed"	mipns::PersistentStoreImpl::Find	12904
+Warning	2024-12-03 18:43:58.780	policy_engine_manager_impl.cpp:275	java (6860)	"Inconsistent label & sensitivity policy detected. Removing both from cache if it exists."	mipns::PolicyEngineManagerImpl::DeletePolicyFromStorage	12904
+Trace	2024-12-03 18:43:58.780	persistent_store_impl.cpp:111	java (6860)	"PersistentStoreImpl::Delete: Trying to delete rows for table: Policies started"	mipns::PersistentStoreImpl::Delete	12904
+Trace	2024-12-03 18:43:58.780	sqlite_storage_table.cpp:163	java (6860)	"SQLiteStorageTable::Delete: Trying to delete rows for table: Policies"	mipns::SQLiteStorageTable::Delete	12904
+Trace	2024-12-03 18:43:58.781	persistent_store_impl.cpp:120	java (6860)	"PersistentStoreImpl::Delete: Trying to delete rows for table: Policies completed"	mipns::PersistentStoreImpl::Delete	12904
+Trace	2024-12-03 18:43:58.781	persistent_store_impl.cpp:111	java (6860)	"PersistentStoreImpl::Delete: Trying to delete rows for table: Sensitivity started"	mipns::PersistentStoreImpl::Delete	12904
+Trace	2024-12-03 18:43:58.781	sqlite_storage_table.cpp:163	java (6860)	"SQLiteStorageTable::Delete: Trying to delete rows for table: Sensitivity"	mipns::SQLiteStorageTable::Delete	12904
+Trace	2024-12-03 18:43:58.781	persistent_store_impl.cpp:120	java (6860)	"PersistentStoreImpl::Delete: Trying to delete rows for table: Sensitivity completed"	mipns::PersistentStoreImpl::Delete	12904
+Info	2024-12-03 18:43:58.781	policy_engine_manager_impl.cpp:358	java (6860)	"Loading new policy engine (requires fetch): 123"	mipns::PolicyEngineManagerImpl::LoadNewEngineAsync	12904
+Trace	2024-12-03 18:43:58.781	persistent_store_impl.cpp:126	java (6860)	"PersistentStoreImpl::Find: Trying to find rows for table: Policies started"	mipns::PersistentStoreImpl::Find	12904
+Trace	2024-12-03 18:43:58.781	sqlite_storage_table.cpp:186	java (6860)	"SQLiteStorageTable::Find: Trying to find rows for table: Policies"	mipns::SQLiteStorageTable::Find	12904
+Trace	2024-12-03 18:43:58.781	sqlite_storage_table.cpp:213	java (6860)	"Found no matching rows."	mipns::SQLiteStorageTable::Find	12904
+Trace	2024-12-03 18:43:58.781	persistent_store_impl.cpp:136	java (6860)	"PersistentStoreImpl::Find: Trying to find rows for table: Policies completed"	mipns::PersistentStoreImpl::Find	12904
+Trace	2024-12-03 18:43:58.781	policy_engine_manager_impl.cpp:614	java (6860)	"Async acquiring 'LabelAndRule' policy for engine: 123"	mipns::PolicyEngineManagerImpl::AcquirePolicyAsync	12904
+Info	2024-12-03 18:43:58.781	auth_request_transformer.cpp:155	java (6860)	"Requesting auth token from app. Resource: 'https://syncservice.o365syncservice.com/', Authority: 'https://login.windows.net/common', Scope: '', Claims: ''"	mipns::AuthRequestTransformer::GetAuthToken	12904
+Info	2024-12-03 18:43:58.781	auth_request_transformer.cpp:169	java (6860)	"Authentication response time (seconds): 0.0389091"	mipns::AuthRequestTransformer::GetAuthToken	12904
+Info	2024-12-03 18:43:58.781	auth_request_transformer.cpp:48	java (6860)	"Failed to get auth token from cached auth header. Failed with: [NoAuthTokenError: 'Client application failed to provide authentication token for HTTP request.']"	mipns::AuthRequestTransformer::TransformRequestPriorToInitialSend	12904
+Trace	2024-12-03 18:43:58.781	persistent_store_impl.cpp:126	java (6860)	"PersistentStoreImpl::Find: Trying to find rows for table: PoliciesUrls started"	mipns::PersistentStoreImpl::Find	12904
+Trace	2024-12-03 18:43:58.781	sqlite_storage_table.cpp:186	java (6860)	"SQLiteStorageTable::Find: Trying to find rows for table: PoliciesUrls"	mipns::SQLiteStorageTable::Find	12904
+Trace	2024-12-03 18:43:58.782	sqlite_storage_table.cpp:213	java (6860)	"Found no matching rows."	mipns::SQLiteStorageTable::Find	12904
+Trace	2024-12-03 18:43:58.782	persistent_store_impl.cpp:136	java (6860)	"PersistentStoreImpl::Find: Trying to find rows for table: PoliciesUrls completed"	mipns::PersistentStoreImpl::Find	12904
+Trace	2024-12-03 18:43:58.782	http_client_base.cpp:80	java (6860)	"Adding HTTP operation '{9209A137-7499-41CA-9749-DA27A1EF5502}'"	mipns::HttpClientBase::AddOperation	12904
+Info	2024-12-03 18:43:58.782	http_director_impl.cpp:141	java (6860)	"Sending HTTP request: ID: {9209A137-7499-41CA-9749-DA27A1EF5502}, Type: GET, Url: https://dataservice.protection.outlook.com/PsorWebService/v1/ClientSyncFile/MipPolicies?supportedMaxVersion=1.0.50.0, Body Size: 0, Headers['ClientInfo'] = 'mip_ver=1.14.150;os_name=win;os_ver=10-0-19045;runtime=msvc-1929;arch=x64', Headers['Capabilities'] = 'BestEffortEntityMatch,BestEffortCCSIMatch,SchematizedDataContentType', Headers['Content-Type'] = 'application/xml;charset=utf-8'"	mipns::HttpDirectorImpl::DoSendHttp	12904
+Trace	2024-12-03 18:43:58.782	http_client_base.cpp:92	java (6860)	"Removing HTTP operation '{9209A137-7499-41CA-9749-DA27A1EF5502}'"	mipns::HttpClientBase::RemoveOperation	15900
+Info	2024-12-03 18:43:58.782	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.023109 ID: {9209A137-7499-41CA-9749-DA27A1EF5502}"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	15900
+Info	2024-12-03 18:43:58.782	oneds_helper.cpp:532	java (6860)	"OneDsHelper::WriteTelemetryEvent(policy_sync_acquire_policy)"	mipns::OneDSHelper::WriteTelemetryEvent	15900
+Info	2024-12-03 18:43:58.782	diagnostic_utils.cpp:80	java (6860)	"Send Telemetry. Event Name : [policy_sync_acquire_policy]
+	App.ApplicationId: [3c5b6c7b-b9a7-47f6-b502-8c9b10247de2], Pii: [None]
+	App.ApplicationName: [OP_Test_Purview Encryption], Pii: [None]
+	App.ApplicationVersion: [1.14], Pii: [None]
+	App.SessionId: [], Pii: [None]
+	Engine.SessionId: [], Pii: [None]
+	Event.CorrelationId: [69e2cf04-4dd8-4576-9fed-013946d25f99], Pii: [None]
+	Event.CorrelationIdDescription: [HttpDirector], Pii: [None]
+	Event.Duration: [0.0243076], Pii: [None]
+	Event.ErrorType: [NetworkError], Pii: [None]
+	Event.Failed.File: [src\core\api_impl\http\http_director_impl.cpp], Pii: [None]
+	Event.Failed.Func: [mipns::HttpTelemetryHelper::NotifyOperationComplete], Pii: [None]
+	Event.Failed.Line: [374], Pii: [None]
+	Event.Failed.Message: [No HTTP response. Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://dataservice.protection.outlook.com/PsorWebService/v1/ClientSyncFile/MipPolicies, HttpRequest.Id={9209A137-7499-41CA-9749-DA27A1EF5502}']], Pii: [None]
+	Event.ParentCorrelationId: [fc3c1d50-2692-4ad6-92b8-78a53db39b6c], Pii: [None]
+	Event.ParentCorrelationIdDescription: [PolicyProfile], Pii: [None]
+	Event.UniqueId: [24ed1f61-24b6-49a0-9c92-1601f2427563], Pii: [None]
+	EventInfo.Level: [10], Pii: [None]
+	EventInfo.PrivTags: [33554432], Pii: [None]
+	MIP.Version: [1.14.150], Pii: [None]
+	Request.CorrelationId: [{9209A137-7499-41CA-9749-DA27A1EF5502}], Pii: [None]
+	Request.IsAsynchronous: [true], Pii: [None]
+	Request.RequestBodySize: [0], Pii: [None]
+	Request.TokenTenantId: [], Pii: [None]
+	Request.Url: [https://dataservice.protection.outlook.com/PsorWebService/v1/ClientSyncFile/MipPolicies], Pii: [None]
+	iKey: [ce9aa5fb5a414ecebb15af10715bd8ff-831d197e-fc97-4df6-b998-c8c13a0fc3ce-6768], Pii: [None]
+"	mipns::WriteTelemetryEventToLog	15900
+Error	2024-12-03 18:43:58.782	oneds_helper.cpp:520	java (6860)	"Failed to find OneDS client for cloud: 3 and dataBoundary: 0"	mipns::OneDSHelper::GetOneDSHandle	15900
+Info	2024-12-03 18:43:58.782	api_log_cache.cpp:78	java (6860)	"{{========================================= API CACHED LOGS END ==========================================================}}"	mipns::ApiLogCache::LogAllMessages	15900
+Info	2024-12-03 18:43:58.782	http_director_impl.cpp:38	java (6860)	"Received HTTP response: "	`anonymous-namespace'::LogHttpOperationDetails	15900
+Error	2024-12-03 18:43:58.782	http_director_impl.cpp:42	java (6860)	"HTTP operation {9209A137-7499-41CA-9749-DA27A1EF5502} failed: Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://dataservice.protection.outlook.com/PsorWebService/v1/ClientSyncFile/MipPolicies, HttpRequest.Id={9209A137-7499-41CA-9749-DA27A1EF5502}']"	`anonymous-namespace'::LogHttpOperationDetails	15900
+Info	2024-12-03 18:43:58.782	api_log_cache.cpp:58	java (6860)	"{{========================================= API CACHED LOGS BEGIN =========================================================}}"	mipns::ApiLogCache::LogAllMessages	15900
+Trace	2024-12-03 18:43:58.782	http_director_impl.cpp:33	java (6860)	"HTTP callback executed on thread 15900"	`anonymous-namespace'::LogHttpOperationDetails	15900
+Info	2024-12-03 18:43:58.782	http_director_impl.cpp:38	java (6860)	"Received HTTP response: "	`anonymous-namespace'::LogHttpOperationDetails	15900
+Error	2024-12-03 18:43:58.783	http_director_impl.cpp:42	java (6860)	"HTTP operation {9209A137-7499-41CA-9749-DA27A1EF5502} failed: Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://dataservice.protection.outlook.com/PsorWebService/v1/ClientSyncFile/MipPolicies, HttpRequest.Id={9209A137-7499-41CA-9749-DA27A1EF5502}']"	`anonymous-namespace'::LogHttpOperationDetails	15900
+Info	2024-12-03 18:43:58.783	api_log_cache.cpp:78	java (6860)	"{{========================================= API CACHED LOGS END ==========================================================}}"	mipns::ApiLogCache::LogAllMessages	15900
+Error	2024-12-03 18:43:58.783	http_director_impl.cpp:269	java (6860)	"HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://dataservice.protection.outlook.com/PsorWebService/v1/ClientSyncFile/MipPolicies, HttpRequest.Id={9209A137-7499-41CA-9749-DA27A1EF5502}']"	mipns::HttpDirectorImpl::OnHttpOperationFailed	15900
+Info	2024-12-03 18:43:58.783	api_log_cache.cpp:58	java (6860)	"{{========================================= API CACHED LOGS BEGIN =========================================================}}"	mipns::ApiLogCache::LogAllMessages	15900
+Trace	2024-12-03 18:43:58.783	persistent_store_impl.cpp:111	java (6860)	"PersistentStoreImpl::Delete: Trying to delete rows for table: PoliciesUrls started"	mipns::PersistentStoreImpl::Delete	15900
+Trace	2024-12-03 18:43:58.783	sqlite_storage_table.cpp:163	java (6860)	"SQLiteStorageTable::Delete: Trying to delete rows for table: PoliciesUrls"	mipns::SQLiteStorageTable::Delete	15900
+Trace	2024-12-03 18:43:58.783	persistent_store_impl.cpp:120	java (6860)	"PersistentStoreImpl::Delete: Trying to delete rows for table: PoliciesUrls completed"	mipns::PersistentStoreImpl::Delete	15900
+Error	2024-12-03 18:43:58.783	http_director_impl.cpp:269	java (6860)	"HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://dataservice.protection.outlook.com/PsorWebService/v1/ClientSyncFile/MipPolicies, HttpRequest.Id={9209A137-7499-41CA-9749-DA27A1EF5502}']"	mipns::HttpDirectorImpl::OnHttpOperationFailed	15900
+Info	2024-12-03 18:43:58.783	api_log_cache.cpp:78	java (6860)	"{{========================================= API CACHED LOGS END ==========================================================}}"	mipns::ApiLogCache::LogAllMessages	15900
+Error	2024-12-03 18:43:58.783	policy_profile_impl.cpp:522	java (6860)	"Failed API call: profile_add_engine_async Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://dataservice.protection.outlook.com/PsorWebService/v1/ClientSyncFile/MipPolicies, HttpRequest.Id={9209A137-7499-41CA-9749-DA27A1EF5502}, CorrelationId=fc3c1d50-2692-4ad6-92b8-78a53db39b6c, CorrelationId.Description=PolicyProfile']"	mipns::ProfileImpl::AddEngineAsync	15900
+Info	2024-12-03 18:43:58.783	api_log_cache.cpp:58	java (6860)	"{{========================================= API CACHED LOGS BEGIN =========================================================}}"	mipns::ApiLogCache::LogAllMessages	15900
+Error	2024-12-03 18:43:58.784	policy_profile_impl.cpp:522	java (6860)	"Failed API call: profile_add_engine_async Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://dataservice.protection.outlook.com/PsorWebService/v1/ClientSyncFile/MipPolicies, HttpRequest.Id={9209A137-7499-41CA-9749-DA27A1EF5502}, CorrelationId=fc3c1d50-2692-4ad6-92b8-78a53db39b6c, CorrelationId.Description=PolicyProfile']"	mipns::ProfileImpl::AddEngineAsync	15900
+Info	2024-12-03 18:43:58.784	api_log_cache.cpp:78	java (6860)	"{{========================================= API CACHED LOGS END ==========================================================}}"	mipns::ApiLogCache::LogAllMessages	15900
+Info	2024-12-03 18:43:58.784	policy_profile_impl.cpp:522	java (6860)	"Ended API task: profile_add_engine_async"	mipns::ProfileImpl::AddEngineAsync	15900
+Info	2024-12-03 18:43:58.784	oneds_helper.cpp:532	java (6860)	"OneDsHelper::WriteTelemetryEvent(profile_add_engine_async)"	mipns::OneDSHelper::WriteTelemetryEvent	15900
+Info	2024-12-03 18:43:58.784	diagnostic_utils.cpp:80	java (6860)	"Send Telemetry. Event Name : [profile_add_engine_async]
+	App.ApplicationId: [3c5b6c7b-b9a7-47f6-b502-8c9b10247de2], Pii: [None]
+	App.ApplicationName: [OP_Test_Purview Encryption], Pii: [None]
+	App.ApplicationVersion: [1.14], Pii: [None]
+	App.SessionId: [], Pii: [None]
+	Engine.SessionId: [], Pii: [None]
+	Event.CorrelationId: [fc3c1d50-2692-4ad6-92b8-78a53db39b6c], Pii: [None]
+	Event.CorrelationIdDescription: [PolicyProfile], Pii: [None]
+	Event.Duration: [0.072292], Pii: [None]
+	Event.ErrorType: [NetworkError], Pii: [None]
+	Event.Failed.File: [src\upe\api_impl\policy_profile_impl.cpp], Pii: [None]
+	Event.Failed.Func: [mipns::ProfileImpl::AddEngineAsync], Pii: [None]
+	Event.Failed.Line: [522], Pii: [None]
+	Event.Failed.Message: [Failed API call: profile_add_engine_async Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://dataservice.protection.outlook.com/PsorWebService/v1/ClientSyncFile/MipPolicies, HttpRequest.Id={9209A137-7499-41CA-9749-DA27A1EF5502}']], Pii: [None]
+	Event.UniqueId: [4a0e7053-ec9c-41c5-9610-271e90afb47d], Pii: [None]
+	EventInfo.Level: [10], Pii: [None]
+	EventInfo.PrivTags: [33554432], Pii: [None]
+	MIP.Version: [1.14.150], Pii: [None]
+	iKey: [ce9aa5fb5a414ecebb15af10715bd8ff-831d197e-fc97-4df6-b998-c8c13a0fc3ce-6768], Pii: [None]
+"	mipns::WriteTelemetryEventToLog	15900
+Warning	2024-12-03 18:43:58.784	common/api_utils.h:232	java (6860)	"Start calling error callback for API: profile_add_engine_async"	mipns::TryExecuteFailureCallback::<lambda_f57fcab7c13a1e04057c4bfcfd37dbc2>::operator ()	17476
+Error	2024-12-03 18:43:58.784	oneds_helper.cpp:520	java (6860)	"Failed to find OneDS client for cloud: 3 and dataBoundary: 0"	mipns::OneDSHelper::GetOneDSHandle	15900
+Info	2024-12-03 18:43:58.784	api_log_cache.cpp:58	java (6860)	"{{========================================= API CACHED LOGS BEGIN =========================================================}}"	mipns::ApiLogCache::LogAllMessages	15900
+Trace	2024-12-03 18:43:58.785	default_task_dispatcher_delegate.cpp:83	java (6860)	"Executing task 'ApiFailure-7' on a new detached thread"	mipns::DefaultTaskDispatcherDelegate::ExecuteTaskOnIndependentThread	15900
+Info	2024-12-03 18:43:58.785	policy_profile_impl.cpp:522	java (6860)	"Ended API task: profile_add_engine_async"	mipns::ProfileImpl::AddEngineAsync	15900
+Info	2024-12-03 18:43:58.785	oneds_helper.cpp:532	java (6860)	"OneDsHelper::WriteTelemetryEvent(profile_add_engine_async)"	mipns::OneDSHelper::WriteTelemetryEvent	15900
+Info	2024-12-03 18:43:58.785	diagnostic_utils.cpp:80	java (6860)	"Send Telemetry. Event Name : [profile_add_engine_async]
+	App.ApplicationId: [3c5b6c7b-b9a7-47f6-b502-8c9b10247de2], Pii: [None]
+	App.ApplicationName: [OP_Test_Purview Encryption], Pii: [None]
+	App.ApplicationVersion: [1.14], Pii: [None]
+	App.SessionId: [], Pii: [None]
+	Engine.SessionId: [], Pii: [None]
+	Event.CorrelationId: [fc3c1d50-2692-4ad6-92b8-78a53db39b6c], Pii: [None]
+	Event.CorrelationIdDescription: [PolicyProfile], Pii: [None]
+	Event.Duration: [0.072292], Pii: [None]
+	Event.ErrorType: [NetworkError], Pii: [None]
+	Event.Failed.File: [src\upe\api_impl\policy_profile_impl.cpp], Pii: [None]
+	Event.Failed.Func: [mipns::ProfileImpl::AddEngineAsync], Pii: [None]
+	Event.Failed.Line: [522], Pii: [None]
+	Event.Failed.Message: [Failed API call: profile_add_engine_async Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://dataservice.protection.outlook.com/PsorWebService/v1/ClientSyncFile/MipPolicies, HttpRequest.Id={9209A137-7499-41CA-9749-DA27A1EF5502}']], Pii: [None]
+	Event.UniqueId: [4a0e7053-ec9c-41c5-9610-271e90afb47d], Pii: [None]
+	EventInfo.Level: [10], Pii: [None]
+	EventInfo.PrivTags: [33554432], Pii: [None]
+	MIP.Version: [1.14.150], Pii: [None]
+	iKey: [ce9aa5fb5a414ecebb15af10715bd8ff-831d197e-fc97-4df6-b998-c8c13a0fc3ce-6768], Pii: [None]
+"	mipns::WriteTelemetryEventToLog	15900
+Warning	2024-12-03 18:43:58.785	common/api_utils.h:232	java (6860)	"Start calling error callback for API: profile_add_engine_async"	mipns::TryExecuteFailureCallback::<lambda_f57fcab7c13a1e04057c4bfcfd37dbc2>::operator ()	17476
+Error	2024-12-03 18:43:58.785	oneds_helper.cpp:520	java (6860)	"Failed to find OneDS client for cloud: 3 and dataBoundary: 0"	mipns::OneDSHelper::GetOneDSHandle	15900
+Info	2024-12-03 18:43:58.785	api_log_cache.cpp:78	java (6860)	"{{========================================= API CACHED LOGS END ==========================================================}}"	mipns::ApiLogCache::LogAllMessages	15900
+Warning	2024-12-03 18:43:58.786	common/api_utils.h:234	java (6860)	"Ended calling error callback for API: profile_add_engine_async"	mipns::TryExecuteFailureCallback::<lambda_f57fcab7c13a1e04057c4bfcfd37dbc2>::operator ()	17476
+Info	2024-12-03 18:44:02.144	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.005671 ID: OneDS_HTTP-2"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	20712
+Error	2024-12-03 18:44:02.144	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-2']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	20712
+Info	2024-12-03 18:44:09.163	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0064131 ID: OneDS_HTTP-3"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	5224
+Error	2024-12-03 18:44:09.163	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-3']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	5224
+Info	2024-12-03 18:44:16.188	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0051169 ID: OneDS_HTTP-4"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	13572
+Error	2024-12-03 18:44:16.188	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-4']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	13572
+Info	2024-12-03 18:44:22.221	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.01128 ID: OneDS_HTTP-5"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	15900
+Error	2024-12-03 18:44:22.221	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-5']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	15900
+Info	2024-12-03 18:44:27.259	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0166734 ID: OneDS_HTTP-6"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	15900
+Error	2024-12-03 18:44:27.259	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-6']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	15900
+Info	2024-12-03 18:44:34.283	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0061951 ID: OneDS_HTTP-7"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	15900
+Error	2024-12-03 18:44:34.283	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-7']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	15900
+Info	2024-12-03 18:44:40.306	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0130256 ID: OneDS_HTTP-8"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	15900
+Error	2024-12-03 18:44:40.306	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-8']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	15900
+Info	2024-12-03 18:44:46.316	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0065737 ID: OneDS_HTTP-9"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	5224
+Error	2024-12-03 18:44:46.316	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-9']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	5224
+Info	2024-12-03 18:44:51.348	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0131121 ID: OneDS_HTTP-10"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	13572
+Error	2024-12-03 18:44:51.348	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-10']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	13572
+Info	2024-12-03 18:44:56.373	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0077812 ID: OneDS_HTTP-11"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	15900
+Error	2024-12-03 18:44:56.373	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-11']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	15900
+Info	2024-12-03 18:45:02.392	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0060286 ID: OneDS_HTTP-12"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	20712
+Error	2024-12-03 18:45:02.393	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-12']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	20712
+Info	2024-12-03 18:45:09.414	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0053143 ID: OneDS_HTTP-13"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	5224
+Error	2024-12-03 18:45:09.414	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-13']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	5224
+Info	2024-12-03 18:45:15.444	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.008826 ID: OneDS_HTTP-14"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	20712
+Error	2024-12-03 18:45:15.444	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-14']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	20712
+Info	2024-12-03 18:45:21.484	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0218733 ID: OneDS_HTTP-15"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	5224
+Error	2024-12-03 18:45:21.485	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-15']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	5224
+Info	2024-12-03 18:45:27.506	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0094328 ID: OneDS_HTTP-16"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	5224
+Error	2024-12-03 18:45:27.506	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-16']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	5224
+Info	2024-12-03 18:45:34.515	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0057758 ID: OneDS_HTTP-17"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	13572
+Error	2024-12-03 18:45:34.515	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-17']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	13572
+Info	2024-12-03 18:45:39.531	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0101097 ID: OneDS_HTTP-18"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	10448
+Error	2024-12-03 18:45:39.532	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-18']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	10448
+Info	2024-12-03 18:45:45.550	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0054132 ID: OneDS_HTTP-19"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	20712
+Error	2024-12-03 18:45:45.550	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-19']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	20712
+Info	2024-12-03 18:45:52.570	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0052009 ID: OneDS_HTTP-20"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	13572
+Error	2024-12-03 18:45:52.570	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-20']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	13572
+Info	2024-12-03 18:45:58.579	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0049241 ID: OneDS_HTTP-21"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	13572
+Error	2024-12-03 18:45:58.579	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-21']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	13572
+Info	2024-12-03 18:46:03.612	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0133216 ID: OneDS_HTTP-22"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	20712
+Error	2024-12-03 18:46:03.612	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-22']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	20712
+Info	2024-12-03 18:46:09.643	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0102694 ID: OneDS_HTTP-23"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	20712
+Error	2024-12-03 18:46:09.645	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-23']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	20712
+Info	2024-12-03 18:46:15.669	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0102236 ID: OneDS_HTTP-24"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	20712
+Error	2024-12-03 18:46:15.669	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-24']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	20712
+Info	2024-12-03 18:46:21.701	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0097971 ID: OneDS_HTTP-25"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	20712
+Error	2024-12-03 18:46:21.702	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-25']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	20712
+Info	2024-12-03 18:46:28.737	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0184646 ID: OneDS_HTTP-26"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	10448
+Error	2024-12-03 18:46:28.737	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-26']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	10448
+Info	2024-12-03 18:46:35.769	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0080217 ID: OneDS_HTTP-27"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	20712
+Error	2024-12-03 18:46:35.769	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-27']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	20712
+Info	2024-12-03 18:46:40.788	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0054983 ID: OneDS_HTTP-28"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	20712
+Error	2024-12-03 18:46:40.788	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-28']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	20712
+Info	2024-12-03 18:46:47.826	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0222634 ID: OneDS_HTTP-29"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	5224
+Error	2024-12-03 18:46:47.826	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-29']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	5224
+Info	2024-12-03 18:46:54.862	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0101617 ID: OneDS_HTTP-30"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	20712
+Error	2024-12-03 18:46:54.862	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-30']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	20712
+Info	2024-12-03 18:46:59.875	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0050329 ID: OneDS_HTTP-31"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	20712
+Error	2024-12-03 18:46:59.875	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-31']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	20712
+Info	2024-12-03 18:47:06.898	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0150621 ID: OneDS_HTTP-32"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	20712
+Error	2024-12-03 18:47:06.898	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-32']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	20712
+Info	2024-12-03 18:47:11.918	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0051073 ID: OneDS_HTTP-33"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	10448
+Error	2024-12-03 18:47:11.918	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-33']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	10448
+Info	2024-12-03 18:47:16.944	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0151509 ID: OneDS_HTTP-34"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	20712
+Error	2024-12-03 18:47:16.944	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-34']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	20712
+Info	2024-12-03 18:47:22.977	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.013048 ID: OneDS_HTTP-35"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	13572
+Error	2024-12-03 18:47:22.977	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-35']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	13572
+Info	2024-12-03 18:47:28.987	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0055427 ID: OneDS_HTTP-36"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	13572
+Error	2024-12-03 18:47:28.987	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-36']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	13572
+Info	2024-12-03 18:47:35.023	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0095976 ID: OneDS_HTTP-37"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	10448
+Error	2024-12-03 18:47:35.024	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-37']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	10448
+Info	2024-12-03 18:47:41.051	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0052032 ID: OneDS_HTTP-38"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	10448
+Error	2024-12-03 18:47:41.051	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-38']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	10448
+Info	2024-12-03 18:47:47.079	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0104385 ID: OneDS_HTTP-39"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	13572
+Error	2024-12-03 18:47:47.079	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-39']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	13572
+Info	2024-12-03 18:47:52.115	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0222117 ID: OneDS_HTTP-40"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	10448
+Error	2024-12-03 18:47:52.115	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-40']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	10448
+Info	2024-12-03 18:47:57.159	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0214496 ID: OneDS_HTTP-41"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	21720
+Error	2024-12-03 18:47:57.167	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-41']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	21720
+Info	2024-12-03 18:48:02.187	http_client_base.cpp:44	java (6860)	"HTTP response time (seconds): 0.0060252 ID: OneDS_HTTP-42"	mipns::HttpClientBase::SendAsync::<lambda_bbfd2e2e0e3cff79745408d7f010e245>::operator ()	13572
+Error	2024-12-03 18:48:02.187	oneds_impl.cpp:149	java (6860)	"OneDS HTTP operation failed Failed with: [NetworkError: 'HTTP connection failure Inner exception: [http_exception: 'WinHttpSendRequest: 12007: The server name or address could not be resolved'], NetworkError.Category=NoConnection, HttpRequest.SanitizedUrl=https://self.events.data.microsoft.com/OneCollector/1.0/, HttpRequest.Id=OneDS_HTTP-42']"	mipns::DoHttpSend::<lambda_7e41cc52cef8313cb5b8b6c171c4063f>::operator ()	13572

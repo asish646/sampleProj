@@ -1,0 +1,15 @@
+{
+  "scriptFile" : "../pan-dpsecondaryencryption-src-null.jar",
+  "entryPoint" : "com.example.hello.HelloHandler.execute",
+  "bindings" : [ {
+    "type" : "httpTrigger",
+    "direction" : "in",
+    "name" : "request",
+    "methods" : [ "GET", "POST" ],
+    "authLevel" : "ANONYMOUS"
+  }, {
+    "type" : "http",
+    "direction" : "out",
+    "name" : "$return"
+  } ]
+}

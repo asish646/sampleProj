@@ -1,0 +1,22 @@
+{
+  "systemId": "KT247@ntrs.com",
+  "requestor": "KT247@ntrs.com",
+  "tla": "PAN",
+  "requestId": "sample123",
+  "permissionList": [
+    {
+      "userId": "KT247@ntrs.com",
+      "rights": [
+        "Rights.View",
+        "Rights.Edit"
+      ]
+    },
+    {
+      "userId": "UA12@ntrs.com",
+      "rights": [
+        "Rights.View",
+        "Rights.Edit"
+      ]
+    }
+  ]
+}

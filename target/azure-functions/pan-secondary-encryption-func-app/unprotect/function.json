@@ -1,0 +1,15 @@
+{
+  "scriptFile" : "../pan-dpsecondaryencryption-src-null.jar",
+  "entryPoint" : "com.ntrs.pan.encrypt.controller.FileUnProtectController.protectFile",
+  "bindings" : [ {
+    "type" : "httpTrigger",
+    "direction" : "in",
+    "name" : "unprotect",
+    "methods" : [ "POST" ],
+    "authLevel" : "ANONYMOUS"
+  }, {
+    "type" : "http",
+    "direction" : "out",
+    "name" : "$return"
+  } ]
+}
